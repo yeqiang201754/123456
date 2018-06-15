@@ -1,0 +1,90 @@
+{extend name="public:base" /}
+{block name="css"}
+{/block}
+{block name="content"}
+<div class="layui-btn-group">
+    <button class="layui-btn layui-btn-sm" id="add"><i class="layui-icon">&#xe61f;</i> 添加</button>
+</div>
+<table class="layui-table" lay-data="{ url:'{:url("@admin/role/role_data")}', page:true, id:'data', limit:{$config['page_num']}}" lay-filter="data">
+	<thead>
+		<tr> 			
+			<th lay-data="{field:'id',width:60}">ID</th>                     
+            <th lay-data="{field:'rolename',width:200,align:'center',edit:'text'}">权限名称</th>
+			<th lay-data="{field:'sort',width:60,align:'center',edit:'text'}">排序</th>       
+            <th lay-data="{field:'cstatus', width:110, templet: '#cstatus', unresize: true,align:'center'}">状态</th> 
+            <th lay-data="{field:'cmark',edit:'text'}">备注</th>
+			<th lay-data="{fixed: 'right', align:'center', toolbar: '#menu',width:300}">可用操作</th> 
+		</tr>
+	</thead>
+</table> 
+
+{/block}
+{block name="javascript"}
+<script type="text/html" id="menu">	
+    <a class="layui-btn layui-btn-sm layui-bg-green" lay-event="set_menu"><i class="layui-icon">&#xe632;</i>设置菜单</a>
+    <a class="layui-btn layui-btn-sm layui-bg-green" lay-event="set_role"><i class="layui-icon">&#xe631;</i>设置权限</a>
+	<a class="layui-btn layui-btn-sm layui-btn-danger" lay-event="del"><i class="layui-icon">&#xe640;</i>删除</a>
+</script>
+<script type="text/html" id="cstatus"> 
+  <input type="checkbox" name="lock" value="{{d.id}}" title="启用" lay-filter="cstatus" {{ d.cstatus == 1 ? 'checked' : '' }}>
+</script>
+
+
+<script>
+//注意：折叠面板 依赖 element 模块，否则无法进行功能性操作
+layui.use(['form', 'layedit','table', 'laydate','element'], function(){
+    var form = layui.form
+    ,layer = layui.layer
+    ,layedit = layui.layedit
+    ,laydate = layui.laydate
+    ,element = layui.element,table = layui.table;
+    form.on('submit(submit)', function(data) {
+        console.log(data);
+        parent.$.fn.jcb.post('{:url("@admin/role/action_save")}',data.field,false);
+		return false;
+    });
+
+    //重新加载数据
+ 	function table_reload(data){
+        if(data.code=='1'){
+            table.reload('data', {
+                url: '{:url("@admin/role/role_data")}', page: {
+                        curr: 1 //重新从第 1 页开始
+                }
+            });
+        }
+    } 
+
+    $('#add').on('click',function(){
+            parent.$.fn.jcb.post('{:url("@admin/role/add")}',null,false,table_reload); 
+    });  
+    table.on('edit(data)', function(obj){ 
+        var r = /^\+?[0-9][0-9]*$/;
+        if(obj.field == 'sort'){　	 
+            if(!r.test(obj.value)){               
+                $.fn.jcb.alert('必须输入整数','error');
+                return false; 
+            }  
+        }              
+        parent.$.fn.jcb.post('{:url("@admin/role/modify")}',obj,false,table_reload); 
+    });  
+
+    form.on('checkbox(cstatus)', function(obj){
+			var postdata ={'field':'cstatus','value':obj.elem.checked ==true ? 1 :0,data:{'id':this.value} }  
+			parent.$.fn.jcb.post('{:url("@admin/role/modify")}',postdata,false,table_reload); 						
+	});
+
+	table.on('tool(data)', function(obj){
+		var data = obj.data;
+		if(obj.event === 'set_menu'){ 
+			location.href = '{:url("@admin/role/set_menu")}?id='+ data.id; 
+        }else if(obj.event === 'set_role'){ 
+			location.href = '{:url("@admin/role/action_set")}?id='+ data.id;
+		}else if(obj.event==='del'){
+			parent.$.fn.jcb.confirm(true,'确定删除吗?','{:url("@admin/role/del")}',table_reload,{'id':data.id}); 				
+		} 
+	});    
+
+});
+</script>
+{/block}

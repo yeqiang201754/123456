@@ -1,0 +1,56 @@
+{extend name="public:base" /}
+{block name="css"}
+<style type="text/css">
+.layui-table-cell {height: 32px;line-height: 32px;}
+</style>
+{/block}
+
+
+{block name="content"}
+
+<table class="layui-table" lay-data="{ url:'{:url("@admin/databackup/datalist")}', page:false, id:'data', limit:1000}" lay-filter="data">
+	<thead>
+		<tr> 			
+			<th lay-data="{type:'numbers', fixed: 'left'}"></th>	                    
+            <th lay-data="{field:'t',width:200,align:'left'}">备份名称</th>
+            <th lay-data="{field:'part',width:60}">卷数</th>
+            <th lay-data="{field:'compress',width:60}">压缩</th>
+            <th lay-data="{field:'size',width:150}">数据大小</th>
+            <th lay-data="{field:'addtime',align:'left'}">备份时间</th> 
+			<th lay-data="{align:'center', toolbar: '#menu',width:250}">操作</th>             
+		</tr>
+	</thead>
+</table> 
+ 
+{/block} 
+
+{block name="javascript"}
+<script type="text/html" id="menu">	
+    <a class="layui-btn layui-btn-sm layui-bg-green layui-btn-radius" lay-event="import"><i class="layui-icon">&#xe609;</i>还  原</a> 
+	<a class="layui-btn layui-btn-sm layui-btn-danger layui-btn-radius" lay-event="del"><i class="layui-icon">&#xe640;</i>删  除</a>
+</script>
+
+<script>
+layui.use(['form', 'layedit','table', 'laydate','element'], function(){
+    var form = layui.form,layer = layui.layer,layedit = layui.layedit,laydate = layui.laydate,element = layui.element,table = layui.table; 
+ 	function table_reload(data){
+        if(data.code=='1'){
+            table.reload('data', {
+                url: '{:url("@admin/databackup/datalist")}', page: {curr: 1}
+            });
+        }
+    } 
+
+	table.on('tool(data)', function(obj){
+		var data = obj.data;
+		if(obj.event === 'import'){ 		 
+            var post_data = {'time':data.time};
+            parent.$.fn.jcb.confirm(true,'确定要恢复备份吗?','{:url("@admin/databackup/import")}',null,post_data);        
+        }else if(obj.event==='del'){	
+            var post_data = {'time':data.time};		
+            parent.$.fn.jcb.confirm(true,'确定要删除备份吗?','{:url("@admin/databackup/del")}',table_reload,post_data); 				
+		} 
+	}); 
+});
+</script>
+{/block}

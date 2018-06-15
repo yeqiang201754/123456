@@ -1,0 +1,89 @@
+{extend name="public:base" /}
+{block name="css"} 
+ <style>
+    .layui-upload-img {width: 92px;height: 92px;margin: 0 10px 10px 0;}
+    .layui-elem-quote {padding:5px 15px 5px 15px}
+</style>
+{/block}
+
+{block name="content"}
+    <div>
+    <blockquote class="layui-elem-quote">
+        <a class="layui-btn layui-btn-sm" href="{:url('admin/system/add_args')}"><i class="layui-icon"></i> 添 加</a>        
+         调用方法: 模板中 $config['KEY']  控制器中 $this->config['KEY']
+    </blockquote>
+    
+    
+    </div>
+    <table class="layui-table" lay-skin="line" lay-size="sm">
+        <colgroup>
+            <col width="150">
+            <col width="70">
+            <col width="100">
+            <col width="200">
+            <col width="70">
+            <col width="70">
+            <col width="70">
+            <col>
+             <col width="200">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>名称</th>
+                <th style="text-align:center">类型</th>
+                <th>KEY</th>                
+                <th>值</th>
+                <th style="text-align:center">系统菜单</th>
+                <th style="text-align:center">允许为空</th>
+                <th style="text-align:center">是否显示</th>
+                <th>备注</th>
+                <th>可用操作</th>
+            </tr> 
+        </thead> 
+        <tbody>
+            {volist name='data' id='vo'}
+            <tr> <!-- colspan="3"-->
+               
+                {eq name="vo.ishead" value="1"}
+                    <td style="color:red;font-weight:bold">{$vo.title}</td>
+                    <td colspan="7"></td>   
+                {else/}
+                    <td>{$vo.title}</td>
+                    <td align="center">{$vo.ctype|get_option_byid}</td> 
+                    <td>{$vo.key}</td>               
+                    <td>{$vo.val}</td>
+                    <td align="center"><i class="layui-icon"> {eq name='vo.issys' value='1'}&#xe618;{else}&#x1006;{/eq}</i></td>                    
+                    <td align="center"><i class="layui-icon"> {eq name='vo.allowempty' value='1'}&#xe618;{else}&#x1006;{/eq}</i></td>                    
+                    <td align="center"><i class="layui-icon"> {eq name='vo.ishide' value='0'}&#xe618;{else}&#x1006;{/eq}</i></td>
+                    <td>{$vo.cmark}</td>
+                {/eq}
+                <td>
+                    <a href="{:url('@admin/system/modify',['id'=>$vo.id])}" class="layui-btn layui-btn-sm layui-bg-green"><i class="layui-icon">&#xe631;</i>修改</a>
+	                <a data-id="{:url('@admin/system/del',['id'=>$vo.id])}" class="layui-btn layui-btn-sm layui-btn-danger del"><i class="layui-icon">&#xe640;</i>删除</a>                    
+                </td>
+            </tr>
+            {/volist}
+        </tbody>
+    </table>
+{/block} 
+
+{block name="javascript"}
+<script>
+layui.use(['form','upload', 'layedit','table', 'laydate','element'], function(){
+    var form = layui.form,layer = layui.layer,layedit = layui.layedit
+    ,laydate = layui.laydate,upload = layui.upload,element = layui.element,table = layui.table; 
+    //刷新页面    
+    function re_reload(data){
+        if(data.code=='1') location.reload();
+    } 
+    $('.del').on('click',function(){
+        var delurl = $(this).attr('data-id');
+        parent.$.fn.jcb.confirm(true,'确定删除吗?',delurl,re_reload); 			
+    });
+
+    function goback(data){
+     
+    }  
+});
+</script>
+{/block}

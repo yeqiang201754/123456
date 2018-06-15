@@ -1,0 +1,58 @@
+{extend name="public:base" /}
+{block name="css"}
+ 
+ {/block}
+
+{block name="content"}
+<div class="layui-btn-group"> 
+  <a class="layui-btn layui-btn-sm" href="javascript:window.history.go(-1);"><i class="layui-icon">&#xe65c;</i> 返回</a>
+</div>
+<table class="layui-table" lay-data="{ url:'{$url}', page:false, id:'data', limit:1000}" lay-filter="data">
+	<thead>
+		<tr> 	
+            <th lay-data="{field:'selected', width:110, templet: '#menu', unresize: true}">权限</th>    
+			<th lay-data="{field:'id',width:60}">ID</th>                     
+            <th lay-data="{field:'title',width:200}">菜单名称</th>
+			<th lay-data="{field:'pid',width:60}">父ID</th> 
+            <th lay-data="{field:'istop', width:110, templet: '#ico', unresize: true}">图标</th>     
+            <th lay-data="{field:'istop', width:110, templet: '#istop', unresize: true}">位置</th>
+            <th lay-data="{field:'isshow', width:110, templet: '#isshow', unresize: true}">是否显示</th>
+            <th lay-data="{field:'sort',width:100}">排序</th> 
+            <th lay-data="{field:'url'}">链接(模块/控制器/方法)</th>
+		</tr>
+	</thead>
+</table> 
+ 
+{/block}
+
+{block name="javascript"}
+<script type="text/html" id="menu">	
+	<input type="checkbox" name="" value="{{d.id}}" lay-filter="roleclick" lay-skin="primary" {{ d.selected == true ? 'checked' : '' }}>
+</script>
+
+<script type="text/html" id="isshow"> 
+  <input type="checkbox" name="lock" value="{{d.id}}" title="显示" lay-filter="lockshow" {{ d.isshow == 1 ? 'checked' : '' }}>
+</script>
+<script type="text/html" id="istop">
+   <input type="checkbox" name="switch" lay-skin="switch" value="{{d.id}}" lay-filter="locktop" lay-text="顶部|左侧"  {{ d.istop == 1 ? 'checked' : ''}}>
+</script>
+<script type="text/html" id="ico">
+    <a class="icoselect" data-id="{{d.id}}"> <i class="layui-icon" >{{d.ico}}</i></a>
+</script>
+<script>  
+    function table_reload(){ 
+        table.reload('data', {'url':'{$url}'});
+    } 
+
+    layui.use(['form', 'table', 'laydate'], function(){
+        table = layui.table;
+        form = layui.form;   
+        form.on('checkbox(roleclick)', function(obj){   
+            console.log(obj);
+			var postdata ={'val':obj.elem.checked ==true ? 1 :0,id:obj.value};
+			parent.$.fn.jcb.post('{$posturl}',postdata,false); 						
+		});
+    });
+</script> 
+{/block}
+ 

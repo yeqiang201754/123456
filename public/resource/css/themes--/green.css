@@ -1,0 +1,46 @@
+/** kit_admin-v1.1.0 MIT License By http://kit/zhengjinfan.cn e-mail:zheng_jinfan@126.com */
+.kit-theme .layui-nav-bar{background-color: #00a65a;}
+.kit-theme .layui-layout-admin .layui-logo{color:#fff;background-color:#00a65a}
+.kit-theme .kit-layout-admin .layui-header{background-color:#fff;border-bottom:2px solid #00a65a}
+.kit-theme .kit-side,.kit-theme .kit-side .layui-side-scroll .layui-nav-tree,.kit-theme .layui-layout-left .layui-nav-item:hover{background-color:#fff!important}
+.kit-theme .layui-layout-admin .layui-header .layui-nav{color:#EEE}
+.kit-theme .kit-layout-admin .layui-body{top:52px}
+.kit-theme .kit-side{box-shadow:0 0 10px 0 #ccc;top:52px}
+.kit-theme .kit-side .layui-nav-tree .layui-nav-item{background-color:#fff;border-bottom:1px solid #EEE}
+.kit-theme .kit-side .layui-nav-tree .layui-nav-item a:hover{background-color:#fff;color:#EEE}
+.kit-theme .kit-side .layui-nav .layui-nav-item a{color:#393D49!important}
+.kit-theme .kit-side .layui-nav-tree .layui-nav-child dd.layui-this,.kit-theme .kit-side .layui-nav-tree .layui-nav-child dd.layui-this a,.kit-theme .kit-side .layui-nav-tree .layui-nav-child dd.layui-this a:hover,.kit-theme .kit-side .layui-nav-tree .layui-this,.kit-theme .kit-side .layui-nav-tree .layui-this>a,.kit-theme .kit-side .layui-nav-tree .layui-this>a:hover{color:#00a65a!important;background-color:#fff!important}
+.kit-theme .kit-side .layui-nav .layui-nav-itemed .layui-nav-child{background-color:#f8f8f8!important}
+.kit-theme .kit-side .layui-nav-tree .layui-nav-child dd:first-child{border-top:1px solid #EEE}
+.kit-theme .kit-nav li.layui-this{background-color:#fff!important}
+.kit-theme .kit-nav li.layui-this a{color:#00a65a!important}
+.kit-theme .kit-nav .layui-nav-item a{color:#393D49!important}
+.kit-theme .kit-nav .layui-nav-item a:hover{color:#00a65a!important}
+.kit-theme .kit-tab .layui-tab-title li.layui-this,.kit-theme .kit-table .kit-table-header .kit-search-inputs .kit-search-more,.kit-theme .layui-table-tool .layui-laypage a:hover{color:#00a65a}
+.kit-theme .kit-side .layui-side-scroll .kit-side-fold{color:#00a65a;background-color:#fff;border-bottom:1px solid #eee}
+.kit-theme .kit-side .layui-nav-tree .layui-nav-child dd.layui-this{padding-left:3px;background-color:#00a65a!important}
+.kit-theme .kit-side .layui-nav-tree li.layui-this{padding-left:5px;background-color:#00a65a!important}
+.kit-theme .kit-side .layui-nav-tree .layui-nav-bar{background-color:#00a65a!important}
+.kit-table .kit-table-header .kit-search-inputs .kit-search-keyword button,.kit-theme .layui-laypage .layui-laypage-curr .layui-laypage-em{background-color:#00a65a}
+.kit-theme .layui-nav .layui-nav-more{border-top-color:#00a65a}
+.kit-theme .kit-nav .layui-nav-itemed .layui-nav-more,.kit-theme .kit-nav .layui-nav-mored,.kit-theme .kit-side .layui-nav-itemed .layui-nav-more,.kit-theme .kit-side .layui-nav-mored{border-color:transparent transparent #00a65a}
+
+
+
+.kit-theme .kit-tab .layui-tab-title li.layui-this,.layui-tab-item {border-left: 5px solid #f2f2f2;}
+/*.kit-side .layui-side-scroll {background: #c1fdcd94;}*/
+.kit-side .layui-side-scroll {background:url(../../images/lv2.png)  no-repeat;background-size: 100% 100%;}
+.kit-theme .kit-side .layui-nav-tree .layui-nav-child dd:first-child {border-top: 1px solid #dbfee3;}
+.kit-theme .kit-side .layui-nav-tree .layui-nav-item { border-bottom: 3px solid #defee3;}
+.layui-layout .layui-header .layui-layout-left{border-left: 2px solid #699065;}
+/*.kit-theme .kit-layout-admin .layui-header { background-color: #c1fdcd94;border-bottom: 4px solid #08ce6f;}*/
+.kit-theme .kit-layout-admin .layui-header {background:url(../../images/lv.png);border-bottom: 4px solid #94ea97;}
+
+.layui-nav-img {border: 1px solid #00a65a}
+.kit-theme .kit-side .layui-side-scroll .kit-side-fold{color:#00a65a;background-color:#cff7d4;border-bottom:1px solid #eee}
+
+.kit-theme .kit-side .layui-nav-tree .layui-this>a{background-color: #bcfdba!important;}
+
+.kit-nav .layui-nav-item .layui-icon{color: #07a65a;}
+
+.layui-layout-admin .layui-footer{background-color: #cbefd3;}

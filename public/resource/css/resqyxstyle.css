@@ -1,0 +1,274 @@
+html {-webkit-text-size-adjust:none; /*解决chrome浏览器下字体不能小于12px*/}
+body{ color:#000000; font-family:Verdana, Arial, Helvetica, sans-serif;}
+a{outline:none; text-decoration:none;} a:hover{ text-decoration:underline;}
+html{zoom:1;}html *{outline:0;zoom:1;} html button::-moz-focus-inner{border-color:transparent!important;} 
+body{overflow-x: hidden; font-size:12px;} body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;-webkit-tap-highlight-color:rgba(0,0,0,0)} table{border-collapse:collapse;border-spacing:0;} fieldset,a img{border:0;-webkit-tap-highlight-color:rgba(0,0,0,0)} address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;} li{list-style:none;} caption,th{text-align:left;} h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;} q:before,q:after{content:'';}
+input[type="submit"], input[type="reset"], input[type="button"],input[type="text"],input[type="password"],textarea, button { -webkit-appearance: none !important; /*去掉苹果的默认UI来渲染按钮*/font-family: "Microsoft YaHei",sans-serif;} em,i{ font-style:normal;}
+/*文字超出隐藏*/
+.w_break{
+	word-break:keep-all;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+strong,em,i{ font-style:normal; font-weight:normal;}
+.clear{ clear:both;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;line-height:0;}
+.clearfix{zoom:1;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+.lft{ float:left;}
+.rgt{ float:right;}
+html {
+	font-size:62.5%
+}
+select{
+ -webkit-appearance:none;-moz-appearance:none;appearanearance: none;}
+@media only screen and (min-width:321px) { /*iphone5*/
+html {
+font-size:62.5%!important
+}
+}
+@media only screen and (min-width:361px) { /*三星note*/
+html {
+font-size:70.31%!important
+}
+}
+@media only screen and (min-width:376px) { /*iphone6*/
+html {
+font-size:73.24%!important
+}
+}
+@media only screen and (min-width:481px) {
+html {
+font-size:94%!important
+}
+}
+@media only screen and (min-width:561px) {
+html {
+font-size:109%!important
+}
+}
+@media only screen and (min-width:641px) {
+html {
+font-size:125%!important
+}
+}
+/**************************************/
+.fl{ float:left;}
+.fr{ float:right;}
+img{ width:auto; max-width:100%; vertical-align:top;}
+html{-webkit-text-size-adjust:none;}
+body{font-family: "Microsoft YaHei",sans-serif;  background:#fff url(../images/bg.jpg) repeat center top;  line-height: 1.5; /*max-width: 64rem; min-width: 32rem; */ margin: 0 auto; min-width: 320px; position: relative; height:100%; color:#555555; max-width:750px;  }
+body a{ color:#555555;text-decoration:none;cursor:pointer}
+body a:hover,body a:active,body a:focus{text-decoration:none;outline:none}
+a:hover,a:link,a:visited,a{ color:inherit; text-decoration:none;}
+
+.layout{position:relative;text-align:left; font-size:1.2rem;margin:0 auto; overflow:hidden; font-size:1.3rem; background:#f8f8f8;} 
+.content{ padding:4.4rem 0;}
+.h44{ height:4.4rem;}
+.header{ height:4.4rem; line-height:4.4rem; background:#01c3ab; text-align:center; color:#fff; font-size:1.7rem; position:fixed; left:0; right:0; top:0; width:100%; z-index:100;}
+.header .ico{ display:block; width:4.4rem; height:4.4rem; }
+.header .ico_back{ position:absolute; left:0; top:0; background:url(../images/back.png) no-repeat 1rem center; font-size:1.5rem; background-size:1.5rem 2.2rem; padding-left:2.1rem;}
+
+
+.supMod { padding:1.2rem 1rem;}
+.supMod .title{ background:url(../images/img1.png) no-repeat center center; background-size:17rem 3.5rem; text-align:center; color:#fff; font-size:1.6rem; height:3.5rem; line-height:3.5rem; margin-bottom:1rem;}
+.supMod .body{background:#fff; border-radius:0.5rem; border:1px solid #e6e6e6; margin-bottom:0.5rem; font-size:1.6rem; padding:1.3rem 1.3rem;}
+.supMod .body .avatar{ width:18rem; height:18rem; border-radius:100%; border:1px solid #e6e6e6; margin:0 auto;}
+.supMod .body .avatar img{ width:18rem; height:18rem;border-radius:100%;}
+.supMod .body .desc{ text-align:center; color:#666666;font-size:1.65rem; margin-bottom:2.4rem;}
+.supMod .body .desc h2{ line-height:5rem; color:#aa5a03; font-size:2.4rem;}
+.supMod .body .desc strong{ color:#333;}
+.supMod .body .desc p{ line-height:1.2;}
+.supMod .body .info{ line-height:1.5; color:#666666;}
+.supMod .body .info strong{ color:#333;}
+.supMod .body .info .red{ color:#d20215;}
+
+.userInfo{ background:url(http://qyx.hxznt.cn/upload/news/shouji.jpg) no-repeat center top; background-size:100% 100%; height:12rem; position:relative;}
+.userInfo .inner{ padding-top:1.5rem; padding-left:2rem; padding-right:1.5rem;}
+.userInfo .avatar{ width:8rem; height:8rem; border-radius:100%; border:1px solid #ddd; float:left;}
+.userInfo .avatar img{ width:8rem; height:8rem; border-radius:100%;}
+.userInfo .edt-btn{ display:block; position:absolute; bottom:0; right:0; background:rgba(0,0,0,0.5); width:5.3rem; height:3rem; line-height:3rem; color:#fff; font-size:1.2rem;}
+.userInfo .edt-btn span{ display:block; background:url(../images/edt.png) no-repeat left center; background-size:1.6rem 1.45rem; padding-left:2rem; line-height:3rem; margin-left:0.5rem;}
+.userInfo .desc{ margin-left:10rem; font-size:1.25rem; padding-top:0.5rem;}
+.userInfo .desc ul li{ margin-bottom:0.1rem;}
+.userInfo .desc ul li strong{ color:#11803e;}
+.userInfo .desc .lv{ background:#11803e; border-radius:0.3rem; color:#fff; font-size:1rem; width:4rem; text-align:center; height:1.4rem; line-height:1.4rem; padding:0.2rem;}
+.userInfo .desc .lv em{ display:block; background:#fb9400;border-radius:0.3rem; width:1.9rem; text-align:center; color:#11803e; float:left;}
+.notice{ background:#f0eff4; width:100%; line-height:2.8rem; height:2.8rem; font-size:1.2rem; text-align:center; color:#666666;position:relative; }
+.notice .txt{ margin-left:8rem;}
+.notice strong{ color:#11803e; background:url(../images/notice.png) no-repeat left center; padding-left:20px; position:absolute; left:1rem; top:0;}
+.homeMod{  text-align:center; margin-bottom:1rem; }
+.homeMod  ul{ width:100%;  float:left; background:#fff; border-radius:0.5rem; overflow:hidden;  }
+.homeMod  li{ width:33.333%; float:left; font-size:1.3rem; border-left:1px solid #eee; border-bottom:1px solid #eee; margin-left:-1px; text-align:center; padding:1rem 0; position:relative; }
+.homeMod li a{-webkit-tap-highlight-color:rgba(0, 0, 0, 0); /* 取消链接高亮 */ color:#333; line-height:1.5; }
+.homeMod li  .thumb{ height:4rem; margin-bottom:0.4rem; padding-top:0.2rem;}
+.homeMod li img{ width:3.5rem; height:3.5rem; border-radius:100%; margin:0 auto; }
+.homeMod li strong{ display:block; line-height:1.8rem; height:1.8rem; overflow:hidden; padding-bottom:0.5rem;}
+.tableMod{ padding:1.5rem 1.2rem;}
+.tableList table{ width:100%; border-radius:0.5rem; background:#fff; color:#666666;}
+.tableList table th{ background:#79bb65; color:#fff; font-size:1.4rem; text-align:center; height:3.5rem; border:1px solid #e3e3e3; border-top:none;}
+.tableList table th:first-child {border-radius:0.5rem 0 0 0; border-left:none; }
+.tableList table th:last-child {border-radius:0 0.5rem 0 0; border-right:none; }
+.tableList table th:only-child{border-radius:0.5rem 0.5rem 0 0;}
+.tableList table td{ border:1px solid #e3e3e3;height:3rem; font-size:1.2rem; padding:0.3rem 0.6rem; line-height:1.4;}
+.tableList table td.org{ color:#a56305;}
+.tableList table td.tc{ text-align:center;} 
+.tableList table td.tl{ text-align:left;}
+.tableList table td .btn{ background:#d18c2a; display:inline-block; height:2.2rem; line-height:2.2rem; width:4rem; border-radius:0.4rem; color:#fff; text-align:center;}
+
+.orderMod .body { padding:0.5rem 1rem;}
+.orderMod .topNav{ height:2.5rem; line-height:2.5rem; padding:1rem 1rem; border-bottom:1px solid #e6e6e6; background:#fff;}
+.orderMod .topNav ul li{ float:left; margin-right:0.6rem; text-align:center;}
+.orderMod .topNav ul li a{ display:block; float:left; width:6.5rem; height:2.5rem; border-radius:0.4rem; color:#fff; font-size:1.2rem; background:#01c3ab;}
+.orderMod .topNav ul li:nth-child(2) a{  background:#d0d550;}
+.orderMod .topNav ul li:nth-child(3) a{  background:#d6ab42;}
+.orderMod .topList{ background:#fff; border-radius:0.5rem; border:1px solid #e6e6e6; margin-bottom:0.5rem;}
+.orderMod .topList ul li:last-child{ border-bottom:none;}
+.orderMod .topList ul li .num{ float:right; line-height:2.5rem; margin-top:0.5rem; color:#666666; font-size:1.2rem; margin-right:-1rem;}
+.orderMod .topList ul li .num input{ float:right; width:4.5rem; height:2.5rem; border-radius:0.3rem; background:#f8f8f8; border:1px solid #eee; font-size:1.25rem; text-align:center; text-align:center; color:#666; }
+.orderMod .topList ul li{ border-bottom:1px solid #e6e6e6; height:3.6rem; position:relative; padding:0 2rem 0 0.8rem; color:#666;}
+.orderMod .topList ul li strong{ float:left;background:#d6ab42; font-family:Georgia, "Times New Roman", Times, serif; width:1.7rem; height:1.7rem; border-radius:0.3rem; color:#fff; text-align:center; line-height:1.5rem; font-size:1.15rem; margin-top:0.9rem; }
+.orderMod .topList ul li .tit{ margin-left:1rem; line-height:1.2; font-size:1.2rem; width:55%; float:left; height:3.6rem; }
+.orderMod .topList ul li .tit h3{ display:table-cell; height:3.6rem; vertical-align:middle; }
+.orderMod .topList ul li span{ float:right; display:block; line-height:3.6rem;}
+.orderMod .details{ background:#fff; border-radius:0.5rem; border:1px solid #e6e6e6;}
+.orderMod .details ul{ }
+.orderMod .details .table{ display:table; width:100%;}
+.orderMod .details ul li:last-child strong,.orderMod .details ul li:last-child span{ border-bottom:none;}
+.orderMod .details ul li{  display:table-row; min-height:3.6rem; line-height:3.6rem; position:relative; padding:0 2rem 0 0.8rem; box-sizing:border-box; color:#666;border-bottom:1px solid #e6e6e6; }
+.orderMod .details ul li:after{ clear:both; content:""; display:block;}
+.orderMod .details ul li strong{display:block;  width:9.5rem;line-height:2.6rem;padding:0.5rem 0; text-align:right; padding-right:0.8rem;font-size:1.2rem; display:table-cell;}
+.orderMod .details ul li span{ padding:0.5rem 0;display:table-cell;  vertical-align:middle; line-height:1.3; font-size:1.15rem; }
+.orderMod .form { padding-top:0.5rem;}
+.orderMod .form li{ margin-bottom:0.5rem;position:relative; min-height:4rem; line-height:4rem; border:1px solid #e6e6e6; background:#fff; border-radius:0.5rem; padding-left:9.6rem;}
+.orderMod .form li:after{ clear:both; content:""; display:block;}
+.orderMod .form ul li strong{ width:6rem; line-height:4rem;border-right:1px solid #e6e6e6; text-align:center; padding-right:0.8rem;font-size:1.2rem; position:absolute; left:0; bottom:0; top:0;text-align:justify;text-justify:distribute-all-lines;/*ie6-8*/text-align-last:justify;/* ie9*/-moz-text-align-last:justify;
+/*ff*/-webkit-text-align-last:justify;/*chrome 20+*/ padding-right:1.5rem; padding-left:1.5rem; color:#666666;}
+.orderMod .form ul li .text{ height:2rem; line-height:2rem; float:left; width:100%;  font-size:1.2rem; color:#666; background:none; outline:none; padding:1rem 0; border:none;}
+.orderMod .form ul li.long{ padding-left:1.5rem;}
+.orderMod .form ul li .text2{ height:5rem;font-family: "Microsoft YaHei",sans-serif; }
+.orderMod .form ul li .code{width:8.5rem;height: 2.8rem;position: absolute;right:1rem;top:0.6rem;background-color: #d55650;text-align: center;color: #FFFFFF;font-size: 1.2rem;cursor: pointer;border: none; border-radius:0.3rem; }
+.orderMod .form ul li .disabled{ background:#ccc;}
+.orderMod .form ul li select{ width:100%; background:url(../images/arrow-down.png) no-repeat right center; background-size:2.7rem 0.9rem; height:4rem; line-height:4rem; border:none; font-size:1.2rem; color:#999;}
+.orderMod .form ul li.slt1 select{ width:50%; float:left; border-right:1px solid #e6e6e6;}
+.orderMod .form ul li.slt1 select:nth-child(1){ width:47%; margin-right:3%;}
+.btnDiv{ padding:1rem 2.2rem;}
+.btnDiv .btn{width:100%;border-radius:0.5rem;  border:none; font-size:1.65rem; display:block; height:4rem; line-height:4rem; color:#fff; text-align:center; background:#01c3ab; border-radius:0.6rem;}
+
+.help-mod{ }
+.help-mod .list{  background:#fff;}
+.help-mod .list li{ height:4rem; line-height:4rem; border-bottom:1px solid #eee; padding:0 1.2rem; padding-right:0.8rem; font-size:1.3rem;}
+.help-mod .list li a{ display:block; background:url(../images/arrow2.png) no-repeat right center; overflow:hidden; height:4rem; padding-right:4rem; background-size:1.3rem 2.1rem; line-height:4rem;}
+
+.upradeMod .head{ border-bottom:1px solid #eee; background:#fff; padding:1.5rem 1.5rem;} 
+.upradeMod .head .thumb{ width:6.85rem; height:5.8rem; float:left;}  
+.upradeMod .head .thumb img{ width:6.85rem; height:5.8rem;}
+.upradeMod .head .desc{ margin-left:8rem; padding-top:1rem; font-size:1.3rem; line-height:1.7;}
+.upradeMod .head .desc h3{ color:#333;}
+.upradeMod .head .desc p{ color:#e36c06;}
+.upradeMod .body{ padding:0.8rem 1rem;}
+.upradeMod .uplist{ }
+.upradeMod .uplist li{ padding:0.5rem 1rem;  margin-bottom:0.5rem;position:relative; min-height:5.3rem; line-height:5.3rem; border:1px solid #e6e6e6; background:#fff; border-radius:0.5rem; font-size:1.2rem; color:#666666; }
+.upradeMod .uplist li .img{ width:5.6rem; float:left;}
+.upradeMod .uplist li img{ width:5.6rem; height:5.3rem; }
+.upradeMod .uplist li:after{ clear:both; content:""; display:block;}
+.upradeMod .uplist li .desc{ margin-left:7rem;}
+.upradeMod .uplist li .desc2{ line-height:1.5;}
+.upradeMod .uplist li .btn{ display:block; position:absolute; right:1rem; top:50%; margin-top:-1.3rem; height:2.6rem; line-height:2.6rem; width:6.5rem; text-align:center; font-size:1.2rem; border-radius:0.4rem; background:#01c3ab; color:#fff;}
+.upradeMod .uplist li .btn2{ display:block; position:absolute; right:1rem; top:50%; margin-top:-1.3rem; height:2.6rem; line-height:2.6rem; width:6.5rem; text-align:center; font-size:1.2rem; border-radius:0.4rem; background:#ec9144 url(../images/arrow-up.png) no-repeat 1.1rem center; background-size:1.25rem 1.35rem; text-indent:1.5rem; color:#fff;}
+
+.myMod .head{ border-bottom:1px solid #eee; background:#fff; padding:1rem 2rem; font-size:0;margin-bottom:0.5rem;} 
+.myMod .head ul{ border:1px solid #01c3ab; height:3rem; border-radius:0.5rem; overflow:hidden;}
+.myMod .head ul li{ display:block; width:50%; float:left; background:#fff; height:3rem; line-height:3rem; text-align:center; font-size:1.3rem; }
+.myMod .head ul li a{ display:block; color:#01c3ab;}
+.myMod .head ul li.on{ background:#01c3ab; color:#fff;}
+.myMod .head ul li.on a{ color:#fff;}
+
+.myMod .head2{ border-bottom:1px solid #eee; background:#fff; padding:1rem 2rem; font-size:0;margin-bottom:0.5rem;} 
+.myMod .head2 ul{ border:1px solid #01c3ab; height:3rem; border-radius:0.5rem; overflow:hidden;}
+.myMod .head2 ul li{ display:block; width:33.33%; float:left; background:#fff; height:3rem; line-height:3rem; text-align:center; font-size:1.3rem; }
+.myMod .head2 ul li a{ display:block; color:#01c3ab;}
+.myMod .head2 ul li.on{ background:#01c3ab; color:#fff;}
+.myMod .head2 ul li.on a{ color:#fff;}
+
+.myMod .body ul li{ margin-bottom:0.5rem;border-bottom:1px solid #eee; background:#fff;border-top:1px solid #eee;  }
+.myMod .body ul li .tt{ height:3rem; line-height:3rem;border-bottom:1px solid #eee; padding:0 2rem; color:#666666; font-size:1.15rem; }
+.myMod .body ul li .tt .s1{ display:block; float:left; width:35%; border-right:1px solid #eee; }
+.myMod .body ul li .tt .s2{ width:20%; float:left; display:block; padding-left:5%;}
+.myMod .body ul li .tt .s3{ float:right; text-align:right;}
+.myMod .body ul li .tt .s3 em{ color:#a54505;}
+.myMod .body ul li .desc{ padding:1rem 2rem;}
+.myMod .body ul li .desc a{ display:block; background:url(../images/arrow21.png) no-repeat right center; overflow:hidden;  background-size:1.3rem 2.1rem; padding-right:3rem; font-size:1.2rem; }
+.myMod .body ul li .desc dl dd{ position:relative; padding:0.2rem 0;padding-left:6rem; }
+.myMod .body ul li .desc dl dd strong{color:#cd7105; width:6rem; position:absolute; left:0; top:0.2rem;}
+
+
+
+
+/*注册 登录*/
+.page_login{ padding:0 0 3rem 0; font-size:1.3rem;}
+.page_login .imgs{  margin-bottom:4rem;}
+.page_login .imgs img{ display:block; width:100%;}
+.login_tab{ padding:0 1.2rem;}
+.login_tab .hd{overflow: hidden;}
+.login_tab .hd ul{overflow: hidden; border-bottom:1px solid #00c3ab; position:relative;}
+.login_tab .hd ul i{ height:2.5rem; width:0; position:absolute; content:""; border-left:1px solid #eee; left:50%; top:0.8rem;}
+.login_tab .hd li{float: left;width: 50%;text-align: center;line-height: 4rem; line-height:4rem; color: #7c7c7c;font-size:1.5rem;cursor: pointer;}
+.login_tab .hd li.on{background: #FFF;color: #00c3ab;border-bottom:2px solid #00c3ab;}
+.login_tab .bd{background: #FFF; margin-bottom:2rem;}
+
+.login_wrap li{overflow: hidden;position: relative; border-bottom:1px solid #ddd;}
+.login_wrap li.i1{ background:url(../images/ico1.png) no-repeat 0.7rem center; padding-left:3.5rem; background-size:1.45rem 2.7rem;}
+.login_wrap li.i2{ background:url(../images/ico2.png) no-repeat 0.5rem center; padding-left:3.5rem; background-size:1.9rem 2.45rem;}
+.login_wrap li .text{padding:1rem 0;width: 100%;height:3rem;color: #666; border:none; font-size:1.35rem;}
+.login_wrap li .t_mm{ background-image:url(../images/i3.png);}
+.login_wrap li .btn_yc{display: block;position: absolute;right: 0;bottom: 0;height: 38px;width: 48px; background:url(../images/i4.png) no-repeat center;}
+.login_wrap li.btn{ padding-top:1.5rem; border-bottom:none; padding-bottom:1.5rem;}
+.login_wrap li .btn_yc.on{ background-image:url(../images/i4h.png)}
+.login_wrap li.yz{ padding:1rem 0;}
+.login_wrap li .t_yzm{background: none;width: 65%; float:left;}
+.login_wrap li .btn_yzm{float: right;height: 5rem;text-align: center;background: #00c3ab; color:#fff; border:none;cursor: pointer; width:34%;border-radius:3px; font-size:1.4rem;}
+.login_wrap li.cbt{ color:#888;border-bottom:none;}
+.login_wrap li .cbt a{color: #429964;}
+.login_wrap li .sbt_zc{width: 100%;height:4.5rem;text-align: center;background: #00c3ab;color: #FFF;font-size:1.5rem;color: #FFF;border: none; border-radius:3px;cursor: pointer;}
+.login_wrap li a.fr{color: #c00;}
+.login_wrap li .disabled{ background:#ccc;}
+
+
+.lft{ float:left;}
+.rgt{ float:right;}
+.zd-mod { background:#fff;}
+.zd-mod .list { padding-left:1rem;}
+.zd-mod .list li{ padding:1rem 0; border-bottom:1px solid #eee; padding-right:1rem;}
+.zd-mod .list li .num{ color:#37c2e9; font-size:1.6rem; line-height:1.5; padding-bottom:0.5rem;} 
+.zd-mod .list li .info:after{ clear:both; content:""; display:block;}
+.zd-mod .list li .info { line-height:1.5;}
+.zd-mod .list li .info .lft{ color:#888; font-size:1.3rem}
+.zd-mod .list li .info .rgt{ color:#333; font-size:1rem;}
+
+.supMod .head2{ border-bottom:1px solid #eee; background:#fff; padding:1rem 2rem; font-size:0;margin-bottom:0.5rem;} 
+.supMod .head2 ul{ border:1px solid #01c3ab; height:3rem; border-radius:0.5rem; overflow:hidden;}
+.supMod .head2 ul li{ display:block; width:50%; float:left; background:#fff; height:3rem; line-height:3rem; text-align:center; font-size:1.3rem; }
+.supMod .head2 ul li a{ display:block; color:#01c3ab;}
+.supMod .head2 ul li.on{ background:#01c3ab; color:#fff;}
+.supMod .head2 ul li.on a{ color:#fff;}
+
+/* dialog */
+.dialog_blank{position:absolute;z-index:10;top:0;left:0;width:100%;background-color:#000;opacity:0.5;filter:Alpha(opacity=50);display:none;}
+.dialog{display:none;position:fixed;z-index:11;top:50%;left:50%;margin:-15rem 0 0 -12.5rem; width:25rem;background-color:#fff;text-align:left;border-radius:0.8rem;}
+.dialog_inside{ padding:0.2rem; position:relative;}
+.dialog_inside .hd{ margin-bottom:1rem;}
+.dialog_inside .hd .img{ float:left; width:5rem; height:5rem; border-radius:0.5rem; margin-right:0.8rem; overflow:hidden;}
+.dialog_inside .hd .img img{ width:5rem; height:5rem;border-radius:0.5rem;}
+.dialog_inside .hd .desc p{ padding:0.8rem 0; padding-bottom:0.3rem;} 
+.dialog_inside .hd .desc p img{ width:1.6rem; height:1.2rem;}
+.dialog_inside .hd .desc span{ display:block; font-size:1.2rem; line-height:100%; color:#666;}
+.dialog .dialog_close{ background:url(../images/close.png) no-repeat center center; background-size:cover; width:2.8rem; height:2.8rem; position:absolute; top:-1rem; right:-1.5rem; display:block; text-indent:-999em;}
+
+.dialog_inside .bd .img img{ display:block; margin:0 auto;}
+.dialog_inside .bd p{ padding-top:0.6rem; text-align:center; font-size:1.1rem; color:#999;}
+.dialog_inside .box{ box-shadow:0 0 0.3rem #999; padding:1rem;border-radius:0.8rem 0.8rem 0 0;}
+.dialog_inside .title{ line-height:2.5rem; text-align:center; font-size:1.2rem; color:#f44906;}

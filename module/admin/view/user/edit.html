@@ -1,0 +1,87 @@
+{extend name="public:base" /}
+{block name="css"} 
+ <style>
+    .layui-upload-img {width: 150px;margin: 0 10px 10px 0;}
+</style>
+{/block}
+{block name="content"}
+<form class="layui-form layui-form-pane" action="">
+    <div class="layui-form-item">
+        <label class="layui-form-label" style="width:130px;">用户名</label>
+        <div class="layui-input-inline">
+            <input type="text" name="username" lay-verify="required" value="{$list.username}" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label" style="width:130px;">电话</label>
+        <div class="layui-input-inline">
+            <input type="text" name="mobile" lay-verify="required" value="{$list.mobile}" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label" style="width:130px;">可用余额</label>
+        <div class="layui-input-inline">
+            <input type="text" name="balance" lay-verify="required" value="{$list.balance}" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label" style="width:130px;">被锁定的余额</label>
+        <div class="layui-input-inline">
+            <input type="text" name="lock_balance" lay-verify="required" value="{$list.lock_balance}" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label" style="width:130px;">累计收益</label>
+        <div class="layui-input-inline">
+            <input type="text" name="profit" lay-verify="required" value="{$list.profit}" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label" style="width:130px;">直接邀请人ID</label>
+        <div class="layui-input-inline">
+            <input type="text" name="invite_one" value="{$list.invite_one}" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label" style="width:130px;">间接邀请人ID</label>
+        <div class="layui-input-inline">
+            <input type="text" name="invite_two" value="{$list.invite_two}" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label" style="width:130px;">等级</label>
+        <div class="layui-input-inline">
+            <select lay-filter="type" name="grade" lay-verify="required">
+                <option value="">请选择</option>
+                <option value="zy" {if condition="$list.grade == 'zy'"} selected {/if}>专员</option>
+                <option value="jl" {if condition="$list.grade == 'jl'"} selected {/if}>经理</option>
+                <option value="hz" {if condition="$list.grade == 'hz'"} selected {/if}>行长</option>
+                <option value="yhj" {if condition="$list.grade == 'yhj'"} selected {/if}>银行家</option>
+            </select>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit lay-filter="submit">提交修改</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重  置</button>
+        </div>
+    </div>
+</form>
+{/block} 
+
+{block name="javascript"}
+<script>
+layui.use(['form','upload', 'layedit','table', 'laydate','element'], function(){
+    var form = layui.form,layer = layui.layer,layedit = layui.layedit,laydate = layui.laydate,upload = layui.upload,element = layui.element,table = layui.table;     
+    
+    function goback(data){
+        if(data.code=='1') window.history.go(-1);
+    }    
+    form.on('submit(submit)', function(data){  
+               
+		parent.$.fn.jcb.post("{$config['current_url']}",data.field,false,goback);  
+		return false;
+	});
+});
+</script>
+{/block}

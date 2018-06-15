@@ -1,0 +1,57 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	会员管理
+</title><meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<meta charset="utf-8" />
+<link rel="stylesheet" href="__PUBLIC__/css/style_mem.css" />
+<link rel="stylesheet" href="__PUBLIC__/css/style.css" />
+<link rel="stylesheet" href="__PUBLIC__/css/addons.css" />
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script src="__PUBLIC__/js/jquery.slide.js"></script>
+<script src="__PUBLIC__/js/touchslide.1.1.js"></script>
+<script src="__PUBLIC__/js/addons.js"></script>
+</head>
+<body style="background-color: white;">
+    <form method="post" id="form1">
+        <div class="layout">
+            <!--导航-->
+            <div class="top_text"> 
+                <h2>推广累计（人）</h2>
+                <b>{$people_one+$people_two}</b>
+                <ul class="ul_info">
+                    <li>
+                        <p>直接</p>
+                        <span>{$people_one}</span>
+                    </li>
+                    <li>
+                        <p>间接</p>
+                        <span>{$people_two}</span>
+                    </li>
+                    <li>
+                        <p>团队</p>
+                        <span>{$team_count}</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="menber">
+                <ul class="clearfix">
+                    <!-- <li><span style=" width:200px;" >用户名</span><span style="margin-left:100px;">电话</span></li>
+                    {volist name="invite_one" id="data"}
+                    <li><span style=" width:200px">{$data.username}</span><span style="margin-left:100px;">{$data.mobile}</span></li>
+                    {/volist} -->
+                </ul>
+            </div>
+            
+            {include file="footer.html" /}
+            <!--导航结束-->
+        </div>
+        <script src="res_new/js/addons.js"></script>
+    </form>
+</body>
+</html>

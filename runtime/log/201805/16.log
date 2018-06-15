@@ -1,0 +1,2840 @@
+---------------------------------------------------------------
+[ 2018-05-16T09:07:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index/game/index.php
+[ info ] 127.0.0.1/index/game/index.php [运行时间：0.034198s][吞吐率：29.24req/s] [内存消耗：1,446.38kb] [文件加载：41]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'game',
+    2 => 'index.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T09:07:37+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.051194s][吞吐率：19.53req/s] [内存消耗：2,472.45kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\index.html [ array (
+  0 => 'grade',
+  1 => 'bank',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003378s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.006897s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000407s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:07:37+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.023650s][吞吐率：42.28req/s] [内存消耗：1,440.26kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T09:07:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/index
+[ info ] 127.0.0.1/index/user/index [运行时间：0.028501s][吞吐率：35.09req/s] [内存消耗：1,816.37kb] [文件加载：47]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T09:07:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index/login/index.html
+[ info ] 127.0.0.1/index/login/index.html [运行时间：0.024717s][吞吐率：40.46req/s] [内存消耗：1,701.06kb] [文件加载：46]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\web\point\module\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T09:07:42+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/bg.jpg
+[ info ] 127.0.0.1/resource/images/bg.jpg [运行时间：0.024128s][吞吐率：41.45req/s] [内存消耗：1,440.46kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'bg.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/resqyxstyle.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T09:07:42+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/i3.png
+[ info ] 127.0.0.1/resource/images/i3.png [运行时间：0.023684s][吞吐率：42.22req/s] [内存消耗：1,440.46kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'i3.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/resqyxstyle.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T09:07:52+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.050433s][吞吐率：19.83req/s] [内存消耗：2,472.45kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\index.html [ array (
+  0 => 'grade',
+  1 => 'bank',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010395s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.004854s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000313s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:07:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index/share/index
+[ info ] 127.0.0.1/index/share/index [运行时间：0.027031s][吞吐率：36.99req/s] [内存消耗：1,735.34kb] [文件加载：46]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'share',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T09:07:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index/Login/index
+[ info ] 127.0.0.1/index/Login/index [运行时间：0.023528s][吞吐率：42.50req/s] [内存消耗：1,701.01kb] [文件加载：46]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\web\point\module\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T09:07:53+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/bg.jpg
+[ info ] 127.0.0.1/resource/images/bg.jpg [运行时间：0.025500s][吞吐率：39.22req/s] [内存消耗：1,440.50kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'bg.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/resqyxstyle.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T09:07:53+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/i3.png
+[ info ] 127.0.0.1/resource/images/i3.png [运行时间：0.024821s][吞吐率：40.29req/s] [内存消耗：1,440.50kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'i3.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/resqyxstyle.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T09:07:55+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.050232s][吞吐率：19.91req/s] [内存消耗：2,472.45kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\index.html [ array (
+  0 => 'grade',
+  1 => 'bank',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010976s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.005338s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:07:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index/upgrade/index
+[ info ] 127.0.0.1/index/upgrade/index [运行时间：0.026696s][吞吐率：37.46req/s] [内存消耗：1,795.41kb] [文件加载：47]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'upgrade',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T09:07:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index/login/index.html
+[ info ] 127.0.0.1/index/login/index.html [运行时间：0.022725s][吞吐率：44.00req/s] [内存消耗：1,701.06kb] [文件加载：46]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\web\point\module\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T09:07:56+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/bg.jpg
+[ info ] 127.0.0.1/resource/images/bg.jpg [运行时间：0.023057s][吞吐率：43.37req/s] [内存消耗：1,440.50kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'bg.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/resqyxstyle.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T09:07:56+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/i3.png
+[ info ] 127.0.0.1/resource/images/i3.png [运行时间：0.025377s][吞吐率：39.41req/s] [内存消耗：1,440.46kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'i3.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/resqyxstyle.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T09:07:57+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.052596s][吞吐率：19.01req/s] [内存消耗：2,472.45kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\index.html [ array (
+  0 => 'grade',
+  1 => 'bank',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010328s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.006659s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000245s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:07:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ info ] 127.0.0.1/index [运行时间：0.050743s][吞吐率：19.71req/s] [内存消耗：2,472.73kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\index.html [ array (
+  0 => 'grade',
+  1 => 'bank',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010664s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.004947s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:07:59+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.027572s][吞吐率：36.27req/s] [内存消耗：1,440.39kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T09:08:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/index
+[ info ] 127.0.0.1/index/user/index [运行时间：0.027189s][吞吐率：36.78req/s] [内存消耗：1,816.38kb] [文件加载：47]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T09:08:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index/login/index.html
+[ info ] 127.0.0.1/index/login/index.html [运行时间：0.026141s][吞吐率：38.25req/s] [内存消耗：1,701.11kb] [文件加载：46]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->index[ D:\web\point\module\index\controller\Login.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T09:08:09+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/bg.jpg
+[ info ] 127.0.0.1/resource/images/bg.jpg [运行时间：0.022637s][吞吐率：44.18req/s] [内存消耗：1,440.50kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'bg.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/resqyxstyle.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T09:08:09+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/i3.png
+[ info ] 127.0.0.1/resource/images/i3.png [运行时间：0.022770s][吞吐率：43.92req/s] [内存消耗：1,440.50kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'i3.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/resqyxstyle.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T09:08:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index/register
+[ info ] 127.0.0.1/index/register [运行时间：0.052617s][吞吐率：19.01req/s] [内存消耗：2,613.75kb] [文件加载：55]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ D:\web\point\module\index\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\register\index.html [ array (
+  0 => 'invite',
+  1 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010651s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.006394s ]
+[ sql ] [ SQL ] SELECT `username` FROM `user` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000394s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:08:16+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/bg.jpg
+[ info ] 127.0.0.1/resource/images/bg.jpg [运行时间：0.026415s][吞吐率：37.86req/s] [内存消耗：1,440.50kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'bg.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style_info.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T09:08:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/register
+[ info ] 127.0.0.1/index/register [运行时间：0.052622s][吞吐率：19.00req/s] [内存消耗：2,613.89kb] [文件加载：55]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Register->index[ D:\web\point\module\index\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\register\index.html [ array (
+  0 => 'invite',
+  1 => 'username',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010908s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.005592s ]
+[ sql ] [ SQL ] SELECT `username` FROM `user` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000251s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:08:36+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/bg.jpg
+[ info ] 127.0.0.1/resource/images/bg.jpg [运行时间：0.032192s][吞吐率：31.06req/s] [内存消耗：1,440.50kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'bg.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style_info.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T09:11:07+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ info ] 127.0.0.1/admin [运行时间：0.046595s][吞吐率：21.46req/s] [内存消耗：2,569.66kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000744s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.009046s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000392s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:11:07+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login/index.html
+[ info ] 127.0.0.1/admin/login/index.html [运行时间：0.048524s][吞吐率：20.61req/s] [内存消耗：2,526.87kb] [文件加载：55]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\web\point\module\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\login\index.html [ array (
+  0 => 'config',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010408s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.005663s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000391s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:11:11+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/login/index.html
+[ info ] 127.0.0.1/admin/login/index.html [运行时间：0.067515s][吞吐率：14.81req/s] [内存消耗：2,535.38kb] [文件加载：55]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '43',
+  'accept' => '*/*',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123',
+  'rememberMe' => 'true',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\web\point\module\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003019s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.007824s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.012998s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000351s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:11:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] 127.0.0.1/admin/index/index.html [运行时间：0.112669s][吞吐率：8.88req/s] [内存消耗：2,650.44kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web\point\module\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\index\index.html [ array (
+  0 => 'config',
+  1 => 'member',
+  2 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000834s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.005845s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.013470s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.013630s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.011544s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|index|index' LIMIT 1 [ RunTime:0.000990s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu` [ RunTime:0.007443s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu` WHERE  `isshow` = 1  AND `id` IN (1,2,3,4,5,9,10,11,12,19,17,8,18,6,14,15,16,7,20,25,24,23,22,21) ORDER BY sort asc [ RunTime:0.002336s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:11:11+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20171230/e5038d874b758fa3b84a444b144e8b09.png
+[ info ] 127.0.0.1/uploads/20171230/e5038d874b758fa3b84a444b144e8b09.png [运行时间：0.032299s][吞吐率：30.96req/s] [内存消耗：1,440.51kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20171230',
+    2 => 'e5038d874b758fa3b84a444b144e8b09.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T09:11:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/main
+[ info ] 127.0.0.1/admin/index/main [运行时间：0.079513s][吞吐率：12.58req/s] [内存消耗：2,523.73kb] [文件加载：55]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\web\point\module\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\index\main.html [ array (
+  0 => 'config',
+  1 => 'member',
+  2 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001759s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.010040s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.007494s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.005509s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.005275s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|index|main' LIMIT 1 [ RunTime:0.000442s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:11:14+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/notice/index
+[ info ] 127.0.0.1/admin/notice/index [运行时间：0.079301s][吞吐率：12.61req/s] [内存消耗：2,582.62kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'notice',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Notice->index[ D:\web\point\module\admin\controller\Notice.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\notice\index.html [ array (
+  0 => 'config',
+  1 => 'member',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010753s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.008767s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.005243s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.007889s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.005056s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|notice|index' LIMIT 1 [ RunTime:0.000247s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:11:14+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/notice/data.html?page=1&limit=12
+[ info ] 127.0.0.1/admin/notice/data.html?page=1&limit=12 [运行时间：0.086890s][吞吐率：11.51req/s] [内存消耗：2,521.69kb] [文件加载：54]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'notice',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/notice/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '12',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Notice->data[ D:\web\point\module\admin\controller\Notice.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010623s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.005597s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.007380s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.005188s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.008250s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|notice|data' LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.007119s ]
+[ sql ] [ SQL ] SELECT * FROM `notice` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT COUNT(id) AS tp_count FROM `notice` LIMIT 1 [ RunTime:0.000930s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:11:18+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/withdraw/index
+[ info ] 127.0.0.1/admin/withdraw/index [运行时间：0.076626s][吞吐率：13.05req/s] [内存消耗：2,580.13kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'withdraw',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Withdraw->index[ D:\web\point\module\admin\controller\Withdraw.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\withdraw\index.html [ array (
+  0 => 'config',
+  1 => 'member',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010256s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.005485s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.008537s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.004955s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.007613s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|withdraw|index' LIMIT 1 [ RunTime:0.000359s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:11:18+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/withdraw/data.html?page=1&limit=12
+[ info ] 127.0.0.1/admin/withdraw/data.html?page=1&limit=12 [运行时间：0.077432s][吞吐率：12.91req/s] [内存消耗：2,522.05kb] [文件加载：54]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'withdraw',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/withdraw/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '12',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Withdraw->data[ D:\web\point\module\admin\controller\Withdraw.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000905s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.006620s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.006758s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.006995s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.005223s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|withdraw|data' LIMIT 1 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `withdraw` [ RunTime:0.009694s ]
+[ sql ] [ SQL ] SELECT `withdraw`.*,`user`.`username`,`user`.`mobile` FROM `withdraw` INNER JOIN `user` `user` ON `user`.`id`=`withdraw`.`user_id` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SELECT COUNT(id) AS tp_count FROM `withdraw` LIMIT 1 [ RunTime:0.000171s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:11:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/withdraw/data.html?page=2&limit=12
+[ info ] 127.0.0.1/admin/withdraw/data.html?page=2&limit=12 [运行时间：0.079951s][吞吐率：12.51req/s] [内存消耗：2,522.05kb] [文件加载：54]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'withdraw',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/withdraw/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+  'limit' => '12',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Withdraw->data[ D:\web\point\module\admin\controller\Withdraw.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010882s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.006532s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.005444s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.005954s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.005053s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|withdraw|data' LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `withdraw` [ RunTime:0.005466s ]
+[ sql ] [ SQL ] SELECT `withdraw`.*,`user`.`username`,`user`.`mobile` FROM `withdraw` INNER JOIN `user` `user` ON `user`.`id`=`withdraw`.`user_id` ORDER BY id desc LIMIT 12,12 [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SELECT COUNT(id) AS tp_count FROM `withdraw` LIMIT 1 [ RunTime:0.000144s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:11:27+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/withdraw/data.html?page=1&limit=12&bank=&username=&status=0
+[ info ] 127.0.0.1/admin/withdraw/data.html?page=1&limit=12&bank=&username=&status=0 [运行时间：0.067819s][吞吐率：14.75req/s] [内存消耗：2,522.59kb] [文件加载：54]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'withdraw',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/withdraw/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '12',
+  'bank' => '',
+  'username' => '',
+  'status' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Withdraw->data[ D:\web\point\module\admin\controller\Withdraw.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001982s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.005397s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.005342s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.006140s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.005131s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|withdraw|data' LIMIT 1 [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `withdraw` [ RunTime:0.005898s ]
+[ sql ] [ SQL ] SELECT `withdraw`.*,`user`.`username`,`user`.`mobile` FROM `withdraw` INNER JOIN `user` `user` ON `user`.`id`=`withdraw`.`user_id` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000632s ]
+[ sql ] [ SQL ] SELECT COUNT(id) AS tp_count FROM `withdraw` LIMIT 1 [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:11:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/withdraw/data.html?page=1&limit=12&bank=&username=&status=0
+[ info ] 127.0.0.1/admin/withdraw/data.html?page=1&limit=12&bank=&username=&status=0 [运行时间：0.077312s][吞吐率：12.93req/s] [内存消耗：2,522.59kb] [文件加载：54]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'withdraw',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/withdraw/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '12',
+  'bank' => '',
+  'username' => '',
+  'status' => '0',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Withdraw->data[ D:\web\point\module\admin\controller\Withdraw.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010643s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.005428s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.006782s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.005084s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.006364s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|withdraw|data' LIMIT 1 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `withdraw` [ RunTime:0.005195s ]
+[ sql ] [ SQL ] SELECT `withdraw`.*,`user`.`username`,`user`.`mobile` FROM `withdraw` INNER JOIN `user` `user` ON `user`.`id`=`withdraw`.`user_id` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SELECT COUNT(id) AS tp_count FROM `withdraw` LIMIT 1 [ RunTime:0.000207s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:11:35+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/withdraw/data.html?page=1&limit=12&bank=&username=&status=1
+[ info ] 127.0.0.1/admin/withdraw/data.html?page=1&limit=12&bank=&username=&status=1 [运行时间：0.077846s][吞吐率：12.85req/s] [内存消耗：2,522.99kb] [文件加载：54]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'withdraw',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/withdraw/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '12',
+  'bank' => '',
+  'username' => '',
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Withdraw->data[ D:\web\point\module\admin\controller\Withdraw.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010566s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.005255s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.005167s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.006520s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.005160s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|withdraw|data' LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `withdraw` [ RunTime:0.005893s ]
+[ sql ] [ SQL ] SELECT `withdraw`.*,`user`.`username`,`user`.`mobile` FROM `withdraw` INNER JOIN `user` `user` ON `user`.`id`=`withdraw`.`user_id` WHERE  `withdraw`.`status` = '1' ORDER BY id desc LIMIT 0,12 [ RunTime:0.000526s ]
+[ sql ] [ SQL ] SELECT COUNT(id) AS tp_count FROM `withdraw` WHERE  `status` = 1 LIMIT 1 [ RunTime:0.000223s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:11:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/articleType/index
+[ info ] 127.0.0.1/admin/articleType/index [运行时间：0.078080s][吞吐率：12.81req/s] [内存消耗：2,581.09kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'articleType',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Articletype->index[ D:\web\point\module\admin\controller\Articletype.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\articletype\index.html [ array (
+  0 => 'config',
+  1 => 'member',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003419s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.005819s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.008577s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000511s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.005365s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.008379s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|articletype|index' LIMIT 1 [ RunTime:0.000476s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:11:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/articletype/data.html?page=1&limit=12
+[ info ] 127.0.0.1/admin/articletype/data.html?page=1&limit=12 [运行时间：0.085772s][吞吐率：11.66req/s] [内存消耗：2,520.33kb] [文件加载：54]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'articletype',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/articleType/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '12',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Articletype->data[ D:\web\point\module\admin\controller\Articletype.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011046s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.005391s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.008064s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.005247s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.006508s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|articletype|data' LIMIT 1 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_type` [ RunTime:0.008396s ]
+[ sql ] [ SQL ] SELECT * FROM `article_type` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT COUNT(id) AS tp_count FROM `article_type` LIMIT 1 [ RunTime:0.000174s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:11:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index
+[ info ] 127.0.0.1/admin/article/index [运行时间：0.080441s][吞吐率：12.43req/s] [内存消耗：2,600.30kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\web\point\module\admin\controller\Article.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\article\index.html [ array (
+  0 => 'config',
+  1 => 'member',
+  2 => 'l_type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000895s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.006823s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.007342s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.007170s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.006415s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|article|index' LIMIT 1 [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_type` [ RunTime:0.006522s ]
+[ sql ] [ SQL ] SELECT * FROM `article_type` [ RunTime:0.000209s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:11:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/data.html?page=1&limit=12
+[ info ] 127.0.0.1/admin/article/data.html?page=1&limit=12 [运行时间：0.084873s][吞吐率：11.78req/s] [内存消耗：2,536.46kb] [文件加载：54]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/article/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '12',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->data[ D:\web\point\module\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010416s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.006900s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.005367s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.005296s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.006988s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|article|data' LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.008111s ]
+[ sql ] [ SQL ] SELECT `article`.*,`article_type`.`name` FROM `article` INNER JOIN `article_type` `article_type` ON `article_type`.`id`=`article`.`type` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000700s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:13:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ info ] 127.0.0.1/admin/index/index.html [运行时间：0.085830s][吞吐率：11.65req/s] [内存消耗：2,650.63kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\web\point\module\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\index\index.html [ array (
+  0 => 'config',
+  1 => 'member',
+  2 => 'menu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001415s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.007755s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.007877s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.006305s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.007638s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|index|index' LIMIT 1 [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu` [ RunTime:0.004893s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu` WHERE  `isshow` = 1  AND `id` IN (1,2,3,4,5,9,10,11,12,19,17,8,18,6,14,15,16,7,20,25,24,23,22,21) ORDER BY sort asc [ RunTime:0.000466s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:13:16+08:00 ] 127.0.0.1 127.0.0.1 GET /uploads/20171230/e5038d874b758fa3b84a444b144e8b09.png
+[ info ] 127.0.0.1/uploads/20171230/e5038d874b758fa3b84a444b144e8b09.png [运行时间：0.026400s][吞吐率：37.88req/s] [内存消耗：1,440.51kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => '20171230',
+    2 => 'e5038d874b758fa3b84a444b144e8b09.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-16T09:13:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/main
+[ info ] 127.0.0.1/admin/index/main [运行时间：0.071854s][吞吐率：13.92req/s] [内存消耗：2,523.71kb] [文件加载：55]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\web\point\module\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\index\main.html [ array (
+  0 => 'config',
+  1 => 'member',
+  2 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000792s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.005506s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.009230s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.008125s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.011191s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|index|main' LIMIT 1 [ RunTime:0.000442s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:13:19+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index
+[ info ] 127.0.0.1/admin/article/index [运行时间：0.082010s][吞吐率：12.19req/s] [内存消耗：2,757.53kb] [文件加载：58]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\web\point\module\admin\controller\Article.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\article\index.html [ array (
+  0 => 'config',
+  1 => 'member',
+  2 => 'l_type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000878s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.008629s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.005563s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001743s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.006900s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.005143s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|article|index' LIMIT 1 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_type` [ RunTime:0.007530s ]
+[ sql ] [ SQL ] SELECT * FROM `article_type` [ RunTime:0.000256s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:13:19+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/data.html?page=1&limit=12
+[ info ] 127.0.0.1/admin/article/data.html?page=1&limit=12 [运行时间：0.071822s][吞吐率：13.92req/s] [内存消耗：2,536.46kb] [文件加载：54]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/article/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '12',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->data[ D:\web\point\module\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001527s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.006955s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.006008s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000551s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.006472s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.004857s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|article|data' LIMIT 1 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.007517s ]
+[ sql ] [ SQL ] SELECT `article`.*,`article_type`.`name` FROM `article` INNER JOIN `article_type` `article_type` ON `article_type`.`id`=`article`.`type` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000405s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:13:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/data.html?page=1&limit=12&type=1&title=
+[ info ] 127.0.0.1/admin/article/data.html?page=1&limit=12&type=1&title= [运行时间：0.082277s][吞吐率：12.15req/s] [内存消耗：2,536.64kb] [文件加载：54]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/article/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '12',
+  'type' => '1',
+  'title' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->data[ D:\web\point\module\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010829s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.005884s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.006119s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.005455s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.005153s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|article|data' LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.005886s ]
+[ sql ] [ SQL ] SELECT `article`.*,`article_type`.`name` FROM `article` INNER JOIN `article_type` `article_type` ON `article_type`.`id`=`article`.`type` WHERE  `type` = '1' ORDER BY id desc LIMIT 0,12 [ RunTime:0.000326s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:13:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index
+[ info ] 127.0.0.1/admin/article/index [运行时间：0.072108s][吞吐率：13.87req/s] [内存消耗：2,600.45kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\web\point\module\admin\controller\Article.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\article\index.html [ array (
+  0 => 'config',
+  1 => 'member',
+  2 => 'l_type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010504s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.005503s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.005445s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.005337s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.004613s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|article|index' LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_type` [ RunTime:0.004498s ]
+[ sql ] [ SQL ] SELECT * FROM `article_type` [ RunTime:0.000182s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:13:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/data.html?page=1&limit=12
+[ info ] 127.0.0.1/admin/article/data.html?page=1&limit=12 [运行时间：0.076208s][吞吐率：13.12req/s] [内存消耗：2,536.46kb] [文件加载：54]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/article/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '12',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->data[ D:\web\point\module\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010425s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.005547s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.005966s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.005221s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.005298s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|article|data' LIMIT 1 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.005787s ]
+[ sql ] [ SQL ] SELECT `article`.*,`article_type`.`name` FROM `article` INNER JOIN `article_type` `article_type` ON `article_type`.`id`=`article`.`type` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000398s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:14:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index
+[ info ] 127.0.0.1/admin/article/index [运行时间：0.073864s][吞吐率：13.54req/s] [内存消耗：2,601.40kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\web\point\module\admin\controller\Article.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\article\index.html [ array (
+  0 => 'config',
+  1 => 'member',
+  2 => 'l_type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010294s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.005968s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.005336s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.005273s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.005058s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|article|index' LIMIT 1 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_type` [ RunTime:0.005141s ]
+[ sql ] [ SQL ] SELECT * FROM `article_type` [ RunTime:0.000319s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:14:26+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/data.html?page=1&limit=12
+[ info ] 127.0.0.1/admin/article/data.html?page=1&limit=12 [运行时间：0.067434s][吞吐率：14.83req/s] [内存消耗：2,579.05kb] [文件加载：57]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/article/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '12',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->data[ D:\web\point\module\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000730s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.005358s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.005677s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.005258s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.004971s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|article|data' LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.005469s ]
+[ sql ] [ SQL ] SELECT `article`.*,`article_type`.`name` FROM `article` INNER JOIN `article_type` `article_type` ON `article_type`.`id`=`article`.`type` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000378s ]
+[ error ] [8]未定义变量: data_count[D:\web\point\module\admin\controller\Article.php:40]
+---------------------------------------------------------------
+[ 2018-05-16T09:14:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index
+[ info ] 127.0.0.1/admin/article/index [运行时间：0.064590s][吞吐率：15.48req/s] [内存消耗：2,601.55kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\web\point\module\admin\controller\Article.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\article\index.html [ array (
+  0 => 'config',
+  1 => 'member',
+  2 => 'l_type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000688s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.005207s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.004909s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.005381s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.005881s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|article|index' LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_type` [ RunTime:0.005368s ]
+[ sql ] [ SQL ] SELECT * FROM `article_type` [ RunTime:0.000245s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:14:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/data.html?page=1&limit=12
+[ info ] 127.0.0.1/admin/article/data.html?page=1&limit=12 [运行时间：0.069194s][吞吐率：14.45req/s] [内存消耗：2,579.11kb] [文件加载：57]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/article/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '12',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->data[ D:\web\point\module\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000622s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.005367s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.005476s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.005398s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.005346s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|article|data' LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.006415s ]
+[ sql ] [ SQL ] SELECT `article`.*,`article_type`.`name` FROM `article` INNER JOIN `article_type` `article_type` ON `article_type`.`id`=`article`.`type` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000346s ]
+[ error ] [8]未定义变量: data_count[D:\web\point\module\admin\controller\Article.php:40]
+---------------------------------------------------------------
+[ 2018-05-16T09:15:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index
+[ info ] 127.0.0.1/admin/article/index [运行时间：0.059396s][吞吐率：16.84req/s] [内存消耗：2,601.40kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\web\point\module\admin\controller\Article.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\article\index.html [ array (
+  0 => 'config',
+  1 => 'member',
+  2 => 'l_type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000779s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.005138s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.004862s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.004754s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.004642s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|article|index' LIMIT 1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_type` [ RunTime:0.004560s ]
+[ sql ] [ SQL ] SELECT * FROM `article_type` [ RunTime:0.000289s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:15:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/data.html?page=1&limit=12
+[ info ] 127.0.0.1/admin/article/data.html?page=1&limit=12 [运行时间：0.065772s][吞吐率：15.20req/s] [内存消耗：2,579.02kb] [文件加载：57]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/article/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '12',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->data[ D:\web\point\module\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000644s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.005352s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.004730s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.004490s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.004895s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|article|data' LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.004658s ]
+[ sql ] [ SQL ] SELECT `article`.*,`article_type`.`name` FROM `article` INNER JOIN `article_type` `article_type` ON `article_type`.`id`=`article`.`type` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000291s ]
+[ error ] [8]未定义变量: data_count[D:\web\point\module\admin\controller\Article.php:40]
+---------------------------------------------------------------
+[ 2018-05-16T09:15:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index
+[ info ] 127.0.0.1/admin/article/index [运行时间：0.075853s][吞吐率：13.18req/s] [内存消耗：2,600.30kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\web\point\module\admin\controller\Article.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\article\index.html [ array (
+  0 => 'config',
+  1 => 'member',
+  2 => 'l_type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010511s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.005765s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.005603s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.005459s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.005186s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|article|index' LIMIT 1 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_type` [ RunTime:0.005160s ]
+[ sql ] [ SQL ] SELECT * FROM `article_type` [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:15:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/data.html?page=1&limit=12
+[ info ] 127.0.0.1/admin/article/data.html?page=1&limit=12 [运行时间：0.061214s][吞吐率：16.34req/s] [内存消耗：2,536.21kb] [文件加载：54]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/article/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '12',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->data[ D:\web\point\module\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000609s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.004981s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000299s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.005122s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.004890s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.004747s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|article|data' LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.005128s ]
+[ sql ] [ SQL ] SELECT `article`.*,`article_type`.`name` FROM `article` INNER JOIN `article_type` `article_type` ON `article_type`.`id`=`article`.`type` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000355s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:16:06+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index
+[ info ] 127.0.0.1/admin/article/index [运行时间：0.083967s][吞吐率：11.91req/s] [内存消耗：2,599.87kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\web\point\module\admin\controller\Article.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\article\index.html [ array (
+  0 => 'config',
+  1 => 'member',
+  2 => 'l_type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010236s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.004569s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.006860s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.004446s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.004263s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|article|index' LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_type` [ RunTime:0.005483s ]
+[ sql ] [ SQL ] SELECT * FROM `article_type` [ RunTime:0.000206s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:16:13+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index
+[ info ] 127.0.0.1/admin/article/index [运行时间：0.084760s][吞吐率：11.80req/s] [内存消耗：2,599.87kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\web\point\module\admin\controller\Article.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\article\index.html [ array (
+  0 => 'config',
+  1 => 'member',
+  2 => 'l_type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000661s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.005528s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.005955s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.004815s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.006476s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|article|index' LIMIT 1 [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_type` [ RunTime:0.004789s ]
+[ sql ] [ SQL ] SELECT * FROM `article_type` [ RunTime:0.000207s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:18:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index
+[ info ] 127.0.0.1/admin/article/index [运行时间：0.076921s][吞吐率：13.00req/s] [内存消耗：2,602.26kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\web\point\module\admin\controller\Article.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\article\index.html [ array (
+  0 => 'config',
+  1 => 'member',
+  2 => 'l_type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010598s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.005600s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.005497s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.005595s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.005488s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|article|index' LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_type` [ RunTime:0.005251s ]
+[ sql ] [ SQL ] SELECT * FROM `article_type` [ RunTime:0.000234s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:18:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/data.html?page=1&limit=12
+[ info ] 127.0.0.1/admin/article/data.html?page=1&limit=12 [运行时间：0.077197s][吞吐率：12.95req/s] [内存消耗：2,542.65kb] [文件加载：54]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/article/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '12',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->data[ D:\web\point\module\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010252s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.005735s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000306s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.005569s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.005303s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000353s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.005151s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|article|data' LIMIT 1 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.005559s ]
+[ sql ] [ SQL ] SELECT `article`.*,`article_type`.`name` FROM `article` INNER JOIN `article_type` `article_type` ON `article_type`.`id`=`article`.`type` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000403s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:18:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/index
+[ info ] 127.0.0.1/admin/article/index [运行时间：0.073943s][吞吐率：13.52req/s] [内存消耗：2,602.26kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ D:\web\point\module\admin\controller\Article.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\article\index.html [ array (
+  0 => 'config',
+  1 => 'member',
+  2 => 'l_type',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010563s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.005441s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.005120s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.005052s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.004984s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|article|index' LIMIT 1 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_type` [ RunTime:0.004952s ]
+[ sql ] [ SQL ] SELECT * FROM `article_type` [ RunTime:0.000295s ]
+---------------------------------------------------------------
+[ 2018-05-16T09:18:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/article/data.html?page=1&limit=12
+[ info ] 127.0.0.1/admin/article/data.html?page=1&limit=12 [运行时间：0.079401s][吞吐率：12.59req/s] [内存消耗：2,542.65kb] [文件加载：54]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'article',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/article/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=7c41p4n4kq2ac7g8k1kp1koq47',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '12',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Article->data[ D:\web\point\module\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010230s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.007225s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.005873s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.005640s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.005248s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|article|data' LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.005321s ]
+[ sql ] [ SQL ] SELECT `article`.*,`article_type`.`name` FROM `article` INNER JOIN `article_type` `article_type` ON `article_type`.`id`=`article`.`type` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000319s ]

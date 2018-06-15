@@ -1,0 +1,3860 @@
+---------------------------------------------------------------
+[ 2018-06-13T17:52:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index
+[ info ] www.point.com/index/index/index [运行时间：0.203098s][吞吐率：4.92req/s] [内存消耗：2,529.52kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\project\point\point\public/../module/index\view\index\index.html [ array (
+  0 => 'sowing',
+  1 => 'horn',
+  2 => 'grade',
+  3 => 'bank',
+  4 => 'start',
+  5 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004514s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.033533s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` LIMIT 0,8 [ RunTime:0.001276s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bank` LIMIT 1 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `horn` [ RunTime:0.029182s ]
+[ sql ] [ SQL ] SELECT * FROM `horn` [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sowing` [ RunTime:0.025898s ]
+[ sql ] [ SQL ] SELECT * FROM `sowing` WHERE  `position` = 1 [ RunTime:0.000323s ]
+---------------------------------------------------------------
+[ 2018-06-13T17:52:51+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] www.point.com/resource/images/loading.gif [运行时间：0.036441s][吞吐率：27.44req/s] [内存消耗：1,448.77kb] [文件加载：40]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.point.com/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T17:52:56+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.068190s][吞吐率：14.66req/s] [内存消耗：2,487.59kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '4',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010224s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.018094s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000454s ]
+---------------------------------------------------------------
+[ 2018-06-13T17:52:56+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.067973s][吞吐率：14.71req/s] [内存消耗：2,487.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010301s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.015055s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000457s ]
+---------------------------------------------------------------
+[ 2018-06-13T17:52:57+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.071184s][吞吐率：14.05req/s] [内存消耗：2,487.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '12',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010542s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.017435s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000327s ]
+---------------------------------------------------------------
+[ 2018-06-13T17:52:57+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.064981s][吞吐率：15.39req/s] [内存消耗：2,487.85kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '11',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010401s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.014609s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000289s ]
+---------------------------------------------------------------
+[ 2018-06-13T17:52:58+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.067345s][吞吐率：14.85req/s] [内存消耗：2,487.48kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '13',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010588s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.015017s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000333s ]
+---------------------------------------------------------------
+[ 2018-06-13T17:52:58+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.066503s][吞吐率：15.04req/s] [内存消耗：2,487.85kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '11',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010044s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.014272s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000363s ]
+---------------------------------------------------------------
+[ 2018-06-13T17:52:59+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.072587s][吞吐率：13.78req/s] [内存消耗：2,487.62kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '5',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012172s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.018528s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000313s ]
+---------------------------------------------------------------
+[ 2018-06-13T17:52:59+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.074743s][吞吐率：13.38req/s] [内存消耗：2,487.62kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '1',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009820s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.023914s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000338s ]
+---------------------------------------------------------------
+[ 2018-06-13T17:53:00+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/banks
+[ info ] www.point.com/index/index/banks [运行时间：0.065324s][吞吐率：15.31req/s] [内存消耗：2,479.55kb] [文件加载：51]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'banks',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'num' => '8',
+  'start' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->banks[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010640s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.014303s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bank` LIMIT 1 [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` LIMIT 8,8 [ RunTime:0.000322s ]
+---------------------------------------------------------------
+[ 2018-06-13T17:53:01+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/banks
+[ info ] www.point.com/index/index/banks [运行时间：0.058329s][吞吐率：17.14req/s] [内存消耗：2,482.08kb] [文件加载：51]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'banks',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '14',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'num' => '-8',
+  'start' => '8',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->banks[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001682s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.014450s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bank` LIMIT 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` LIMIT 0,8 [ RunTime:0.000235s ]
+---------------------------------------------------------------
+[ 2018-06-13T17:53:05+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/banks
+[ info ] www.point.com/index/index/banks [运行时间：0.068641s][吞吐率：14.57req/s] [内存消耗：2,479.55kb] [文件加载：51]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'banks',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'num' => '8',
+  'start' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->banks[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010449s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.014409s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bank` LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` LIMIT 8,8 [ RunTime:0.000290s ]
+---------------------------------------------------------------
+[ 2018-06-13T17:53:08+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/banks
+[ info ] www.point.com/index/index/banks [运行时间：0.068095s][吞吐率：14.69req/s] [内存消耗：2,482.08kb] [文件加载：51]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'banks',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '14',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'num' => '-8',
+  'start' => '8',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->banks[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010236s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.016021s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bank` LIMIT 1 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` LIMIT 0,8 [ RunTime:0.000278s ]
+---------------------------------------------------------------
+[ 2018-06-13T17:55:27+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.067031s][吞吐率：14.92req/s] [内存消耗：2,487.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '2',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002054s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.014460s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000311s ]
+---------------------------------------------------------------
+[ 2018-06-13T17:55:27+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.065948s][吞吐率：15.16req/s] [内存消耗：2,487.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011177s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.013677s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000313s ]
+---------------------------------------------------------------
+[ 2018-06-13T17:55:28+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.056210s][吞吐率：17.79req/s] [内存消耗：2,487.62kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '4',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001048s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.013897s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000367s ]
+---------------------------------------------------------------
+[ 2018-06-13T17:55:28+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.070289s][吞吐率：14.23req/s] [内存消耗：2,487.48kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '13',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010857s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.017546s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000305s ]
+---------------------------------------------------------------
+[ 2018-06-13T17:55:29+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/banks
+[ info ] www.point.com/index/index/banks [运行时间：0.064526s][吞吐率：15.50req/s] [内存消耗：2,479.55kb] [文件加载：51]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'banks',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'num' => '8',
+  'start' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->banks[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009954s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.015573s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bank` LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` LIMIT 8,8 [ RunTime:0.000340s ]
+---------------------------------------------------------------
+[ 2018-06-13T17:55:32+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/banks
+[ info ] www.point.com/index/index/banks [运行时间：0.068440s][吞吐率：14.61req/s] [内存消耗：2,482.08kb] [文件加载：51]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'banks',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '14',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'num' => '-8',
+  'start' => '8',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->banks[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009927s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.018442s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bank` LIMIT 1 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` LIMIT 0,8 [ RunTime:0.000292s ]
+---------------------------------------------------------------
+[ 2018-06-13T17:55:37+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/banks
+[ info ] www.point.com/index/index/banks [运行时间：0.063298s][吞吐率：15.80req/s] [内存消耗：2,479.55kb] [文件加载：51]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'banks',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'num' => '8',
+  'start' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->banks[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003207s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.019074s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bank` LIMIT 1 [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` LIMIT 8,8 [ RunTime:0.000323s ]
+---------------------------------------------------------------
+[ 2018-06-13T17:55:40+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/banks
+[ info ] www.point.com/index/index/banks [运行时间：0.065119s][吞吐率：15.36req/s] [内存消耗：2,482.08kb] [文件加载：51]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'banks',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '14',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'num' => '-8',
+  'start' => '8',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->banks[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010667s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.013725s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bank` LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` LIMIT 0,8 [ RunTime:0.000336s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:00:37+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.065182s][吞吐率：15.34req/s] [内存消耗：2,487.62kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '5',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000669s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.015434s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000240s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:00:38+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.057236s][吞吐率：17.47req/s] [内存消耗：2,487.85kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '11',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000999s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.013869s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000345s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:00:39+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.063990s][吞吐率：15.63req/s] [内存消耗：2,487.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '12',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010323s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.013686s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000317s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:00:39+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.072901s][吞吐率：13.72req/s] [内存消耗：2,487.85kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '11',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011108s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.014384s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000656s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:00:39+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.063838s][吞吐率：15.66req/s] [内存消耗：2,487.62kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '5',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010278s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.015112s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000327s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:00:44+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.067121s][吞吐率：14.90req/s] [内存消耗：2,487.85kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '11',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009915s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.015720s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000304s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:00:46+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.065664s][吞吐率：15.23req/s] [内存消耗：2,487.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '12',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010339s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.013597s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000306s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:00:47+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.071103s][吞吐率：14.06req/s] [内存消耗：2,487.48kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '13',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011164s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.014910s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000325s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:00:47+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.066284s][吞吐率：15.09req/s] [内存消耗：2,487.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '12',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009851s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.013646s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000278s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:00:48+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.057789s][吞吐率：17.30req/s] [内存消耗：2,487.85kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '11',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000682s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.015133s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000323s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:00:49+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.068851s][吞吐率：14.52req/s] [内存消耗：2,487.62kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '5',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001017s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.021392s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000306s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:35+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.058734s][吞吐率：17.03req/s] [内存消耗：2,487.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '2',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010174s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.014005s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000330s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:36+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.069183s][吞吐率：14.45req/s] [内存消耗：2,487.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012112s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.016998s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000335s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:37+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.069056s][吞吐率：14.48req/s] [内存消耗：2,487.62kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '4',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010172s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.018520s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000313s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:37+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.072706s][吞吐率：13.75req/s] [内存消耗：2,487.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011739s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.019399s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000405s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:38+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.075656s][吞吐率：13.22req/s] [内存消耗：2,487.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '2',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010024s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.020975s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000484s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:39+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.059352s][吞吐率：16.85req/s] [内存消耗：2,487.62kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '4',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009952s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.014796s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000354s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:41+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.063999s][吞吐率：15.63req/s] [内存消耗：2,487.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '2',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010643s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.015962s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000361s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.071292s][吞吐率：14.03req/s] [内存消耗：2,487.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010356s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.019190s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000335s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:43+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.063953s][吞吐率：15.64req/s] [内存消耗：2,487.62kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '4',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001043s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.020325s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000346s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:43+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.077006s][吞吐率：12.99req/s] [内存消耗：2,487.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010301s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.021368s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000492s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:44+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.071522s][吞吐率：13.98req/s] [内存消耗：2,487.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '2',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010390s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.020176s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000302s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:45+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.070093s][吞吐率：14.27req/s] [内存消耗：2,487.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009990s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.019780s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000294s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:46+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.062732s][吞吐率：15.94req/s] [内存消耗：2,487.62kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '4',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002477s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.019477s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000442s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:47+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.071121s][吞吐率：14.06req/s] [内存消耗：2,487.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010614s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.019854s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000438s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:47+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.066186s][吞吐率：15.11req/s] [内存消耗：2,487.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '2',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003146s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.021048s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000372s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:48+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.070443s][吞吐率：14.20req/s] [内存消耗：2,487.62kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '1',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010279s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.019710s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000370s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:48+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.065159s][吞吐率：15.35req/s] [内存消耗：2,487.62kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '5',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000785s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.022066s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000769s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:49+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.074359s][吞吐率：13.45req/s] [内存消耗：2,487.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '12',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010657s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.022510s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000355s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:50+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.079028s][吞吐率：12.65req/s] [内存消耗：2,487.48kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '13',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010035s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.026202s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000356s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:50+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.071395s][吞吐率：14.01req/s] [内存消耗：2,487.62kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '4',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009773s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.020601s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000369s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:51+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.070750s][吞吐率：14.13req/s] [内存消耗：2,487.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '12',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010235s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.020486s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000290s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:51+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.071455s][吞吐率：13.99req/s] [内存消耗：2,487.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011390s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.018939s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.070180s][吞吐率：14.25req/s] [内存消耗：2,487.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '2',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010215s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.019279s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000368s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:52+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.078406s][吞吐率：12.75req/s] [内存消耗：2,487.85kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '11',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009698s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.024095s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000419s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:53+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.063589s][吞吐率：15.73req/s] [内存消耗：2,487.62kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '5',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000909s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.021132s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000361s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:02:53+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.073132s][吞吐率：13.67req/s] [内存消耗：2,487.62kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '1',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010712s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.019519s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000395s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:03:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index
+[ info ] www.point.com/index/index/index [运行时间：0.098994s][吞吐率：10.10req/s] [内存消耗：2,529.84kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\project\point\point\public/../module/index\view\index\index.html [ array (
+  0 => 'sowing',
+  1 => 'horn',
+  2 => 'grade',
+  3 => 'bank',
+  4 => 'start',
+  5 => 'count',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009781s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.016338s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` LIMIT 0,8 [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bank` LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `horn` [ RunTime:0.014393s ]
+[ sql ] [ SQL ] SELECT * FROM `horn` [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sowing` [ RunTime:0.018061s ]
+[ sql ] [ SQL ] SELECT * FROM `sowing` WHERE  `position` = 1 [ RunTime:0.000567s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:03:09+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] www.point.com/resource/images/loading.gif [运行时间：0.027605s][吞吐率：36.23req/s] [内存消耗：1,448.98kb] [文件加载：40]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.point.com/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-13T18:03:14+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.058347s][吞吐率：17.14req/s] [内存消耗：2,487.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010194s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.013123s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000355s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:03:15+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.066678s][吞吐率：15.00req/s] [内存消耗：2,487.62kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '4',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011437s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.016769s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000333s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:03:16+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.061860s][吞吐率：16.17req/s] [内存消耗：2,487.47kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '12',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000800s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.017583s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000322s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:03:16+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.070788s][吞吐率：14.13req/s] [内存消耗：2,487.48kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '13',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011445s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.016543s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000384s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:03:17+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/banks
+[ info ] www.point.com/index/index/banks [运行时间：0.068676s][吞吐率：14.56req/s] [内存消耗：2,479.55kb] [文件加载：51]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'banks',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'num' => '8',
+  'start' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->banks[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010361s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.017437s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bank` LIMIT 1 [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` LIMIT 8,8 [ RunTime:0.000456s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:03:21+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/banks
+[ info ] www.point.com/index/index/banks [运行时间：0.063116s][吞吐率：15.84req/s] [内存消耗：2,482.08kb] [文件加载：51]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'banks',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '14',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'num' => '-8',
+  'start' => '8',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->banks[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010596s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.015913s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `bank` LIMIT 1 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` LIMIT 0,8 [ RunTime:0.000361s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:11:13+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.049415s][吞吐率：20.24req/s] [内存消耗：2,487.63kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '2',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000929s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.013308s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000400s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:11:14+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.069580s][吞吐率：14.37req/s] [内存消耗：2,487.63kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010161s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.018403s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000479s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:11:14+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.057257s][吞吐率：17.47req/s] [内存消耗：2,487.64kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '12',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000794s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.017402s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000411s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:11:15+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.064545s][吞吐率：15.49req/s] [内存消耗：2,488.02kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '11',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010181s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.016575s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000320s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:11:16+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.064793s][吞吐率：15.43req/s] [内存消耗：2,487.78kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '5',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009848s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.015482s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000362s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:11:16+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.060412s][吞吐率：16.55req/s] [内存消耗：2,487.78kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '1',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000965s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.017878s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000294s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:11:17+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.068078s][吞吐率：14.69req/s] [内存消耗：2,487.63kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '2',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010679s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.016740s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000322s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:11:17+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.066614s][吞吐率：15.01req/s] [内存消耗：2,487.63kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010283s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.015597s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000374s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:11:18+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.066272s][吞吐率：15.09req/s] [内存消耗：2,487.78kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '4',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010688s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.015198s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000494s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:11:19+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.071877s][吞吐率：13.91req/s] [内存消耗：2,487.65kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '13',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011008s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.018084s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:11:20+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.068984s][吞吐率：14.50req/s] [内存消耗：2,487.64kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '12',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010724s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.015681s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.001034s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:11:21+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.066686s][吞吐率：15.00req/s] [内存消耗：2,487.78kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '1',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010697s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.015926s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000450s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:11:22+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.062204s][吞吐率：16.08req/s] [内存消耗：2,488.02kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '11',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010236s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.013615s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000449s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:11:23+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.065613s][吞吐率：15.24req/s] [内存消耗：2,487.78kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '5',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009955s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.015080s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000319s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:11:23+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.067801s][吞吐率：14.75req/s] [内存消耗：2,487.63kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '2',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011023s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.015442s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000626s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:11:24+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.063122s][吞吐率：15.84req/s] [内存消耗：2,487.63kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000924s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.020445s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000368s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:11:24+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.066542s][吞吐率：15.03req/s] [内存消耗：2,487.78kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '4',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010086s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.017192s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000797s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:11:38+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.057443s][吞吐率：17.41req/s] [内存消耗：2,487.78kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '4',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010110s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.013309s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000323s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:11:39+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.062351s][吞吐率：16.04req/s] [内存消耗：2,487.64kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '12',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010305s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.015435s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000369s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:11:40+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.054647s][吞吐率：18.30req/s] [内存消耗：2,488.02kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '11',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000841s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.015797s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000531s ]
+---------------------------------------------------------------
+[ 2018-06-13T18:11:40+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] www.point.com/index/index/bank [运行时间：0.067166s][吞吐率：14.89req/s] [内存消耗：2,487.63kb] [文件加载：53]
+[ info ] [ LANG ] D:\project\point\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.point.com',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.point.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.point.com/index/index/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=kpka3tu0hua3c36sb7sce8qdq0',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\project\point\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010217s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.015974s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark`,`img` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000366s ]

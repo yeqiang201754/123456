@@ -1,0 +1,175 @@
+---------------------------------------------------------------
+[ 2018-06-06T08:57:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index/game/index.php
+[ info ] 127.0.0.1/index/game/index.php [运行时间：0.040628s][吞吐率：24.61req/s] [内存消耗：1,449.54kb] [文件加载：41]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'game',
+    2 => 'index.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; session_id=26a0b83fde',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-06T08:57:37+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.078853s][吞吐率：12.68req/s] [内存消耗：2,492.50kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; session_id=26a0b83fde',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\index.html [ array (
+  0 => 'sowing',
+  1 => 'horn',
+  2 => 'grade',
+  3 => 'bank',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001603s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.013614s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `horn` [ RunTime:0.008999s ]
+[ sql ] [ SQL ] SELECT * FROM `horn` [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sowing` [ RunTime:0.006798s ]
+[ sql ] [ SQL ] SELECT * FROM `sowing` WHERE  `position` = 1 [ RunTime:0.000325s ]
+---------------------------------------------------------------
+[ 2018-06-06T08:57:37+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.029462s][吞吐率：33.94req/s] [内存消耗：1,443.66kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; session_id=26a0b83fde; PHPSESSID=s3n13cfndr1e7187mrahl381l5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-06T09:12:55+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] 127.0.0.1/ [运行时间：0.080501s][吞吐率：12.42req/s] [内存消耗：2,492.51kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; session_id=26a0b83fde; PHPSESSID=s3n13cfndr1e7187mrahl381l5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\index.html [ array (
+  0 => 'sowing',
+  1 => 'horn',
+  2 => 'grade',
+  3 => 'bank',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000864s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.006623s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `horn` [ RunTime:0.006420s ]
+[ sql ] [ SQL ] SELECT * FROM `horn` [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `sowing` [ RunTime:0.006173s ]
+[ sql ] [ SQL ] SELECT * FROM `sowing` WHERE  `position` = 1 [ RunTime:0.000286s ]
+---------------------------------------------------------------
+[ 2018-06-06T09:12:55+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.026783s][吞吐率：37.34req/s] [内存消耗：1,443.71kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; session_id=26a0b83fde; PHPSESSID=s3n13cfndr1e7187mrahl381l5',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

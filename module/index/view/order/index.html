@@ -1,0 +1,79 @@
+{extend name="public:base" /}
+{block name="css"}
+<style>
+.layui-input, .layui-select, .layui-textarea {height: 30px; line-height: 30px;}
+.layui-form-pane .layui-form-label {width: 50px;height: 30px; line-height: 30px;padding: 0px;}
+.layui-inline{float:left}
+.layui-btn-sm {height: 26px;line-height: 26px;font-size: 12px;padding: 0px 10px;}
+</style>
+{/block}
+
+{block name="content"} 
+ <form class="layui-form layui-form-pane">
+    <div class="layui-form-item layui-form-pane">          
+               
+        
+    </div>
+ </form> 
+
+<table class="layui-table" lay-data="{ url:'{:url("@admin/order/data")}', page:true, id:'data', limit:{$config['page_num']}}" lay-filter="data">
+	<thead>
+		<tr> 			
+            <th lay-data="{type:'numbers', fixed: 'left'}"></th>
+            <th lay-data="{field:'code',width:100,align:'center'}">兑换码</th>
+            <th lay-data="{field:'bankid',width:100,align:'center'}">银行ID</th>
+            <th lay-data="{field:'num',width:80,align:'center'}">总数量</th>
+            <th lay-data="{field:'amount',width:80,align:'center'}">总金额</th>
+            <th lay-data="{field:'status',width:80,align:'center'}">是否审核</th>
+            <th lay-data="{field:'user_id',width:100,align:'center'}">用户名</th>
+            <th lay-data="{field:'mark',width:300,align:'center'}">备注</th>
+            <th lay-data="{field:'picture',width:120,templet: '#picture', unresize: true}">图片</th>
+            <th lay-data="{field:'addtime',width:150,align:'center'}">添加时间</th>
+            <th lay-data="{align:'center', toolbar: '#menu',width:180}">可用操作</th>   
+		</tr>
+	</thead>
+</table> 
+{/block} 
+
+{block name="javascript"}  
+<script type="text/html" id="menu">
+    <button class="layui-btn layui-btn-sm layui-btn-danger layui-btn-radius" lay-event="del"><i class="layui-icon">&#xe640;</i>删除</button>  
+</script>
+<script type="text/html" id="picture">
+ <img src = {{d.picture != '' ? d.picture : 'http://t.cn/RCzsdCq' }} class="layui-nav-img">
+</script> 
+<script type="text/javascript"> 
+var serachobj=null;
+layui.use(['form', 'layedit','table', 'laydate','element'], function(){
+    var form = layui.form,layer = layui.layer,layedit = layui.layedit,laydate = layui.laydate,element = layui.element,table = layui.table;   
+         
+    function reload_go_one(data){
+        if(data.code=='1'){
+            table.reload('data', {
+                url: '{:url("@admin/order/data")}',where:serachobj, page: {curr: 1}
+            });
+            layer.closeAll();
+        }
+    }
+    function reload(data){
+        if(data.code=='1'){
+            table.reload('data', {
+                url: '{:url("@admin/order/data")}',where:serachobj
+            });
+            layer.closeAll();
+        }
+    }  
+     
+          
+    table.on('tool(data)', function(obj){
+        var data = obj.data;
+         
+                       
+        if(obj.event==='del'){
+            parent.$.fn.jcb.confirm(true,'确定删除吗?','{:url("@admin/order/del")}',reload_go_one,{'id':data.id}); 				
+        }
+                  
+    });
+});
+</script>
+{/block}

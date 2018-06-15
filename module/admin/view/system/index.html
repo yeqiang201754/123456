@@ -1,0 +1,90 @@
+{extend name="public:base" /}
+{block name="css"} 
+ <style>
+    .layui-upload-img {width: 92px;height: 92px;margin: 0 10px 10px 0;}
+</style>
+{/block}
+
+{block name="content"}
+<form class="layui-form  layui-form-pane" action="">
+<div class="layui-tab">
+  <ul class="layui-tab-title"> 
+    {volist name='data' id='vo' key='k'}
+    <li {eq name='k' value="1"}class="layui-this"{/eq}>{$vo.title}</li>
+    {/volist} 
+  </ul>
+  <div class="layui-tab-content"> 
+        {volist name='data' id='vo' key='k'}
+        <div class="layui-tab-item {eq name='k' value="1"}layui-show{/eq}">
+            {volist name='vo.child' id="child"}
+            <div class="layui-form-item {eq name='child.ctype' value='5'}layui-form-text{/eq}" {eq name='child.ctype' value='4'}pane{/eq}>
+                <label class="layui-form-label">{$child.title}</label>
+                <div class="layui-input-block">
+                    {switch name="child.ctype"}
+                        {case value="1"}
+                            <input type="text" name="{$child.key}" tip="{$child.cmark}"  {eq name='child.allowempty' value='0'}required  lay-verify="required"{/eq} value="{$child.val}" placeholder="{$child.cmark}" autocomplete="off" class="tip layui-input">
+                        {/case}
+                        {case value="2"}
+                            <input type="number" name="{$child.key}" tip="{$child.cmark}" {eq name='child.allowempty' value='0'}required  lay-verify="required"{/eq} value="{$child.val}" placeholder="{$child.cmark}" autocomplete="off" class="tip layui-input">
+                         {/case}
+                        {case value="3"}
+                            <select name="{$child.key}" {eq name='child.allowempty' value='0'}lay-verify="required"{/eq}>
+                                <option value="">请选择</option>
+                              {php} 
+                                $items = explode('|',$child['item']); 
+                              {/php}
+                              {volist name='items' id='item'}
+                                <option value="{$item}" {eq name='child.val' value='$item'}selected{/eq}>{$item}</option>
+                              {/volist} 
+                            </select>  
+                        {/case}
+                        {case value="4"}
+                            <input type="checkbox" name="{$child.key}" value="{$child.val}" lay-skin="switch" lay-text="ON|OFF" {eq name='child.val' value='1'}checked{/eq}>
+                        {/case}
+
+                        {case value="5"}
+                            <textarea tip="{$child.cmark}" placeholder="{$child.cmark}" name="{$child.key}" class="layui-textarea tip">{$child.val}</textarea>                            
+                        {/case}
+                        {default /}default
+                    {/switch} 
+                </div>
+                
+            </div> 
+            {/volist}
+        </div>
+        {/volist} 
+  </div>
+
+  <div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+            <button class="layui-btn" lay-submit lay-filter="submit"><i class="layui-icon">&#xe618;</i> 保存设置</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+            </div>
+        </div>
+
+  </div>
+</div>
+</form>
+{/block} 
+
+{block name="javascript"}
+<script>
+layui.use(['form','upload', 'layedit','table', 'laydate','element'], function(){
+    var form = layui.form,layer = layui.layer,layedit = layui.layedit
+    ,laydate = layui.laydate,upload = layui.upload,element = layui.element,table = layui.table;    
+
+    function goback(data){
+        if(data.code=='1') parent.close_current_tb();
+    } 
+    $('.tip').mouseenter(function(e){
+        var tip= $(this).attr('tip');
+        if(tip != '') layer.tips(tip, $(this),{tips: [1, '#0FA6D8']});
+    });
+    form.on('submit(submit)', function(data){ 
+		parent.$.fn.jcb.post("{:url('@admin/system/save')}",data.field,false,goback);  
+		return false;
+	}); 
+});
+</script>
+{/block}

@@ -1,0 +1,85 @@
+{extend name="public:base" /}
+{block name="css"} 
+ <style>
+    .layui-upload-img {width: 150px;margin: 0 10px 10px 0;}
+</style>
+{/block}
+{block name="content"}
+<form class="layui-form layui-form-pane" action="">
+    <div class="layui-form-item">
+        <label class="layui-form-label" style="width:120px;">会员等级</label>
+        
+        <div class="layui-input-inline">
+            <select name="level" lay-verify="required">
+                <option value="">请选择</option>
+                <option value="zy" {if condition="$list.level == 'zy'"} selected {/if}>专员</option>
+                <option value="jl" {if condition="$list.level == 'jl'"} selected {/if}>经理</option>
+                <option value="hz" {if condition="$list.level == 'hz'"} selected {/if}>专员</option>
+                <option value="yhj" {if condition="$list.level == 'yhj'"} selected {/if}>银行家</option>
+            </select>
+        </div>
+    </div>
+    
+    <!-- <div class="layui-form-item">
+        <label class="layui-form-label" style="width:120px;">推荐奖比例</label>
+        <div class="layui-input-inline">
+            <input type="text" name="tjj" lay-verify="required" value="{$list.tjj}" autocomplete="off" class="layui-input">
+        </div>
+    </div> -->
+    <div class="layui-form-item">
+        <label class="layui-form-label" style="width:120px;">升级返佣比例</label>
+        <div class="layui-input-inline">
+            <input type="text" name="sjfy" lay-verify="required" value="{$list.sjfy}" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+    <!-- <div class="layui-form-item">
+        <label class="layui-form-label" style="width:120px;">团队分红</label>
+        <div class="layui-input-inline">
+            <input type="text" name="team" lay-verify="required" value="{$list.team}" autocomplete="off" class="layui-input">
+        </div>
+    </div> -->
+    <div class="layui-form-item">
+        <label class="layui-form-label" style="width:120px;">升级所需费用</label>
+        <div class="layui-input-inline">
+            <input type="text" name="up" lay-verify="required" value="{$list.up}" autocomplete="off" class="layui-input">
+        </div>
+    </div> 
+    <div class="layui-form-item  layui-form-text">
+        <label class="layui-form-label">简介</label>
+        <div class="layui-input-block">
+             <script id="bewriter" name="bewriter" type="text/plain">{$list.bewriter}</script>
+        </div>
+    </div>
+    <div class="layui-form-item  layui-form-text">
+        <label class="layui-form-label">权益</label>
+        <div class="layui-input-block">
+             <script id="content" name="content" type="text/plain">{$list.content}</script>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit lay-filter="submit">提交修改</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重  置</button>
+        </div>
+    </div>
+</form>
+{/block} 
+
+{block name="javascript"}
+<script>
+layui.use(['form','upload', 'layedit','table', 'laydate','element'], function(){
+    var form = layui.form,layer = layui.layer,layedit = layui.layedit,laydate = layui.laydate,upload = layui.upload,element = layui.element,table = layui.table;
+    var bewriter = UE.getEditor('bewriter');
+    var content = UE.getEditor('content');
+    function goback(data){
+        if(data.code=='1') window.history.go(-1);
+    }    
+    form.on('submit(submit)', function(data){
+        data.field.bewriter = UE.getEditor('bewriter').getContent();
+        data.field.content = UE.getEditor('content').getContent();       
+		parent.$.fn.jcb.post("{$config['current_url']}",data.field,false,goback);  
+		return false;
+	});
+});
+</script>
+{/block}

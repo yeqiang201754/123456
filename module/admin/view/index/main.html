@@ -1,0 +1,64 @@
+{extend name="public:base" /}
+{block name="css"} 
+ 
+{/block}
+
+{block name="content"}
+ <div class="layui-form ayui-form-pane" action="">    
+
+  <div class="layui-form-item">
+    <label class="layui-form-label">系统版本:</label>
+    <div class="layui-input-block">
+      <input type="text" value ="1.0" readonly class="layui-input">
+    </div>
+  </div>
+  <div class="layui-form-item">
+    <label class="layui-form-label">操作系统:</label>
+    <div class="layui-input-block">
+      <input type="text" value ="{$info['操作系统']}" readonly class="layui-input">
+    </div>
+  </div>
+    <div class="layui-form-item">
+    <label class="layui-form-label">运行环境:</label>
+    <div class="layui-input-block">
+      <input type="text" value ="{$info['运行环境']}" readonly class="layui-input">
+    </div>
+  </div>
+      <div class="layui-form-item">
+    <label class="layui-form-label">PHP运行方式:</label>
+    <div class="layui-input-block">
+      <input type="text" value ="{$info['PHP运行方式']}" readonly class="layui-input">
+    </div>
+  </div>
+        <div class="layui-form-item">
+    <label class="layui-form-label">上传附件限制:</label>
+    <div class="layui-input-block">
+      <input type="text" value ="{$info['上传附件限制']}" readonly class="layui-input">
+    </div>
+  </div>
+    <div class="layui-form-item">
+    <label class="layui-form-label">服务器时间:</label>
+    <div class="layui-input-block">
+      <input type="text" value ="{$info['服务器时间']}" readonly class="layui-input">
+    </div>
+  </div>
+    <div class="layui-form-item">
+    <label class="layui-form-label">剩余空间:</label>
+    <div class="layui-input-block">
+      <input type="text" value ="{$info['剩余空间']}" readonly class="layui-input">
+    </div>
+  </div>
+   
+ 
+</div> 
+{/block} 
+
+{block name="javascript"}
+<script>
+layui.use(['form','upload', 'layedit','table', 'laydate','element'], function(){
+    var form = layui.form,layer = layui.layer,layedit = layui.layedit
+    ,laydate = layui.laydate,upload = layui.upload,element = layui.element,table = layui.table;     
+  
+});
+</script>
+{/block}

@@ -1,0 +1,123 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+	<script src="__PUBLIC__/js/jquery.min.js"></script>
+    <title>微信支付</title>
+    <script type="text/javascript">
+	var timeid;
+	//调用微信JS api 支付
+	function jsApiCall()
+	{
+		$(".msg").html("<font color=#000000>正在发起支付，请稍等。。。</font>");
+		setTimeout(function(){
+		
+			WeixinJSBridge.invoke(
+				'getBrandWCPayRequest',
+				<?php echo $pay_data['jsApiParameters']; ?>,
+				function(res){
+					//WeixinJSBridge.log(res.err_msg);
+					//alert(res.err_msg);
+					if(res.err_msg=="get_brand_wcpay_request:cancel"){
+						//alert("您已经取消了支付");
+						$(".msg").html("<font color=#f00>您已经取消了支付，可以重新发起</font>");
+					}
+					clearInterval(timeid);
+				}
+			);
+		},300);
+	}
+
+	function callpay()
+	{
+		//return false;
+		if (typeof WeixinJSBridge == "undefined"){
+		    if( document.addEventListener ){
+		        document.addEventListener('WeixinJSBridgeReady', jsApiCall, false);
+		    }else if (document.attachEvent){
+		        document.attachEvent('WeixinJSBridgeReady', jsApiCall); 
+		        document.attachEvent('onWeixinJSBridgeReady', jsApiCall);
+		    }
+		}else{
+		
+		    jsApiCall();
+		}
+		
+		
+	}
+	</script>
+	<script type="text/javascript">
+	//获取共享地址
+	function editAddress()
+	{
+		WeixinJSBridge.invoke(
+			'editAddress',
+			<?php echo $pay_data['editAddress']; ?>,
+			function(res){
+				var value1 = res.proviceFirstStageName;
+				var value2 = res.addressCitySecondStageName;
+				var value3 = res.addressCountiesThirdStageName;
+				var value4 = res.addressDetailInfo;
+				var tel = res.telNumber;
+				
+				//alert(value1 + value2 + value3 + value4 + ":" + tel);
+			}
+		);
+	}
+	
+	window.onload = function(){
+		if (typeof WeixinJSBridge == "undefined"){
+		    if( document.addEventListener ){
+		        document.addEventListener('WeixinJSBridgeReady', editAddress, false);
+		    }else if (document.attachEvent){
+		        document.attachEvent('WeixinJSBridgeReady', editAddress); 
+		        document.attachEvent('onWeixinJSBridgeReady', editAddress);
+		    }
+		}else{
+			editAddress();
+		}
+	};
+	
+	</script>
+</head>
+<style>
+body{ text-align:center;}
+.msg{ font-size:20px; text-align:center; line-height:3em; display:block; margin-bottom:2em; color:#999;}
+</style>
+<body>
+	<br>
+	<br>
+	<br>
+    <font color="#000"><b>此笔订单您需要支付<br><span style="color:#f00;font-size:50px"><?=$total_fee?>元</span><br>（测试只支付1分）</b></font><br/><br/>
+	<div class="msg">请确认以上信息</div>
+	<div align="center">
+		<button style="width:70%; height:50px; border-radius: 5px;background-color:#00a65a;border:1px solid #00a65a;cursor: pointer;  color:white;  font-size:16px;" type="button" onclick="callpay()" >立即支付</button>
+	</div>
+	<div align="center">
+		<button style="width:70%; height:50px;margin-top:30px; border-radius: 5px;background-color:#fff;border:1px solid #00a65a;cursor: pointer;  color:#00a65a;  font-size:16px;" type="button" onclick="history.go(-1)" >取消支付</button>
+	</div>
+</body>
+<script>
+	 timeid = setInterval(function(){
+		   getData();
+		  }, 3000);
+     function getData(){
+		var order_num = "{$order_num}";
+       $.ajax({
+         url:'/index/upgrade/order',
+         type:'get',
+         dataType:'json',
+         data:{order_num:order_num},
+         success:function(data){
+			
+             if(data.code == 1){
+                 //alert('恭喜你支付成功');
+				 $(".msg").html("<font color=green>恭喜你支付成功</font>");
+                 window.location.href="/index/upgrade/index"; 
+				 clearInterval(timeid);
+             }
+         }
+       });
+     }
+  </script>
+</html>

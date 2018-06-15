@@ -1,0 +1,135 @@
+{extend name="public:base" /}
+{block name="css"} 
+ <style>
+    .layui-upload-img {width: 92px;height: 92px;margin: 0 10px 10px 0;}
+</style> 
+ {eq name='data.ishead' value='1'}
+<style>
+    .child{display: none}
+</style>
+{/eq}
+
+{/block}
+
+{block name="content"}
+ <form class="layui-form" action="">
+
+    <div class="layui-form-item">
+        <label class="layui-form-label">是否菜单</label>
+        <div class="layui-input-block">
+             <input type="checkbox" name="ishead" lay-text="是|否" lay-filter="ishead" value="1" lay-skin="switch" {eq name='data.ishead' value='1'}checked{/eq}>
+        </div>
+    </div>
+
+    <div class="layui-form-item child">
+        <label class="layui-form-label">父菜单</label>       
+        <div class="layui-input-block">
+            <select name="pid">
+                <option value=""></option>
+                {volist name='head' id='vo'}
+                <option value="{$vo.id}" {eq name='data.pid' value='$vo.id'}selected{/eq}>{$vo.title}</option> 
+                {/volist}
+            </select>      
+        </div>
+    </div> 
+
+    <div class="layui-form-item child">
+        <label class="layui-form-label">类型</label>       
+        <div class="layui-input-block">
+            <select name="ctype">
+                <option value=""></option>
+                {volist name='option' id='vo' key='k'}
+                <option value="{$k}" {eq name='data.ctype' value='$k'}selected{/eq}>{$vo}</option> 
+                {/volist}
+            </select>      
+        </div>
+    </div> 
+    <div class="layui-form-item child">
+        <label class="layui-form-label">KEY</label>
+        <div class="layui-input-block">
+        <input type="text" name="key" value="{$data.key}" placeholder="键值" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item child">
+        <label class="layui-form-label">值</label>
+        <div class="layui-input-block">
+        <input type="text" name="val" value="{$data.val}" placeholder="默认值" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">显示标题</label>
+        <div class="layui-input-block">
+        <input type="text" name="title" required  lay-verify="required" value="{$data.title}" placeholder="显示标题" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">排序</label>
+        <div class="layui-input-inline">
+            <input type="number" name="sort" value="0" required  lay-verify="required" value="{$data.sort}"  placeholder="整数" autocomplete="off" class="layui-input">
+        </div>
+    </div>
+
+    <div class="layui-form-item child">
+        <label class="layui-form-label">允许为空</label>
+        <div class="layui-input-block">
+        <input type="checkbox" name="allowempty" title="允许" {eq name='data.allowempty' value='1'}checked{/eq}>
+        </div>
+    </div>
+
+    <div class="layui-form-item child">
+        <label class="layui-form-label">系统参数</label>
+        <div class="layui-input-block">
+        <input type="checkbox" name="issys" title="允许" {eq name='data.issys' value='1'}checked{/eq}>
+        </div>
+    </div>
+    <div class="layui-form-item child">
+        <label class="layui-form-label">是否隐藏</label>
+        <div class="layui-input-block">
+        <input type="checkbox" name="ishide" title="隐藏" {eq name='data.ishide' value='1'}checked{/eq}>
+        </div>
+    </div>
+    <div class="layui-form-item child">
+        <label class="layui-form-label">选择项</label>
+        <div class="layui-input-block">
+        <input type="text" name="item"  value="{$data.item}" placeholder="选择项时需填写此处" autocomplete="off" class="layui-input">
+        </div>
+    </div> 
+    <div class="layui-form-item child">
+        <label class="layui-form-label">描述</label>
+        <div class="layui-input-block">
+            <input type="text" name="cmark"  value="{$data.cmark}" placeholder="描述" autocomplete="off" class="layui-input">
+        </div>
+    </div>  
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+        <button class="layui-btn" lay-submit lay-filter="submit">保存修改</button>
+        <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+        </div>
+    </div>
+</form>
+{/block} 
+
+{block name="javascript"}
+<script>
+layui.use(['form','upload', 'layedit','table', 'laydate','element'], function(){
+    var form = layui.form,layer = layui.layer,layedit = layui.layedit
+    ,laydate = layui.laydate,upload = layui.upload,element = layui.element,table = layui.table;     
+
+    function goback(data){
+        if(data.code=='1') window.history.go(-1);
+    } 
+    form.on('switch(ishead)', function(data){ 
+        if(this.checked){
+            $('.container .child').css('display','none');
+        }else{
+            $('.container .child').css('display','block');
+        }
+    });
+
+    form.on('submit(submit)', function(data){         
+		  parent.$.fn.jcb.post("{$config['current_url']}",data.field,false,goback);  
+		  return false;
+	});  
+});
+</script>
+{/block}

@@ -1,0 +1,78 @@
+{extend name="public:base" /}
+{block name="css"}
+<style>
+.layui-input, .layui-select, .layui-textarea {height: 30px; line-height: 30px;}
+.layui-form-pane .layui-form-label {width: 50px;height: 30px; line-height: 30px;padding: 0px;}
+.layui-inline{float:left}
+.layui-btn-sm {height: 26px;line-height: 26px;font-size: 12px;padding: 0px 10px;}
+</style>
+{/block}
+
+{block name="content"} 
+ <form class="layui-form layui-form-pane">
+    <div class="layui-form-item layui-form-pane">          
+        {_tpl_search_begin_} 
+        {_tpl_search_content_}
+        <button class="layui-btn layui-btn-sm" lay-submit lay-filter="serach" ><i class="layui-icon">&#xe615;</i> 搜索</button>
+        {_tpl_search_end_}       
+        {_tpl_add_button_begin_}
+        <a class="layui-btn layui-btn-sm" href="{:url('@admin/{_tpl_controller_}/add')}"><i class="layui-icon">&#xe61f;</i> 添加</a>
+        {_tpl_add_button_end_}
+    </div>
+ </form> 
+
+<table class="layui-table" lay-data="{ url:'{:url("@admin/{_tpl_controller_}/data")}', page:true, id:'data', limit:{$config['page_num']}}" lay-filter="data">
+	<thead>
+		<tr> 			
+            <th lay-data="{type:'numbers', fixed: 'left'}"></th>
+            {_tpl_tb_border_}
+            <th lay-data="{align:'center', toolbar: '#menu',width:180}">可用操作</th>   
+		</tr>
+	</thead>
+</table> 
+{/block} 
+
+{block name="javascript"}  
+<script type="text/html" id="menu">	
+    {_tpl_tb_tools_}  
+</script>  
+{_tpl_tb_td_} 
+<script type="text/javascript"> 
+var serachobj=null;
+layui.use(['form', 'layedit','table', 'laydate','element'], function(){
+    var form = layui.form,layer = layui.layer,layedit = layui.layedit,laydate = layui.laydate,element = layui.element,table = layui.table;   
+    {_tpl_date_js_}     
+    function reload_go_one(data){
+        if(data.code=='1'){
+            table.reload('data', {
+                url: '{:url("@admin/{_tpl_controller_}/data")}',where:serachobj, page: {curr: 1}
+            });
+            layer.closeAll();
+        }
+    }
+    function reload(data){
+        if(data.code=='1'){
+            table.reload('data', {
+                url: '{:url("@admin/{_tpl_controller_}/data")}',where:serachobj
+            });
+            layer.closeAll();
+        }
+    }  
+    {_tpl_search_js_} 
+    {_tpl_modify_field_js_}      
+    table.on('tool(data)', function(obj){
+        var data = obj.data;
+        {_tpl_edit_begin_}
+        if(obj.event === 'edit'){ 
+            location.href = "{:url('@admin/{_tpl_controller_}/edit')}" +'?id='+ data.id; 
+        }
+        {_tpl_edit_end_} 
+        {_tpl_del_begin_}               
+        if(obj.event==='del'){
+            parent.$.fn.jcb.confirm(true,'确定删除吗?','{:url("@admin/{_tpl_controller_}/del")}',reload_go_one,{'id':data.id}); 				
+        }
+        {_tpl_del_end_}          
+    });
+});
+</script>
+{/block}

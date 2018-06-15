@@ -1,0 +1,117 @@
+html {-webkit-text-size-adjust:none; /*解决chrome浏览器下字体不能小于12px*/}
+body{ color:#000000; font-family:Verdana, Arial, Helvetica, sans-serif;}
+a{outline:none; text-decoration:none;} a:hover{ text-decoration:underline;}
+html{zoom:1;}html *{outline:0;zoom:1;} html button::-moz-focus-inner{border-color:transparent!important;} 
+body{overflow-x: hidden; font-size:12px;} body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;-webkit-tap-highlight-color:rgba(0,0,0,0)} table{/*border-collapse:collapse;border-spacing:0;*/} fieldset,a img{border:0;-webkit-tap-highlight-color:rgba(0,0,0,0)} address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;} li{list-style:none;} caption,th{text-align:left;} h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;} q:before,q:after{content:'';}
+input[type="submit"], input[type="reset"], input[type="button"],input[type="text"],input[type="password"],textarea, button { -webkit-appearance: none !important; /*去掉苹果的默认UI来渲染按钮*/} em,i{ font-style:normal;}
+/*文字超出隐藏*/
+.w_break{
+	word-break:keep-all;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+strong,em,i{ font-style:normal; font-weight:normal;}
+.clear{ clear:both;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;line-height:0;}
+.clearfix{zoom:1;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+.lft{ float:left;}
+.rgt{ float:right;}
+html {font-size:53.33%}
+@media only screen and (min-width:321px) { /*iphone5*/
+html {
+font-size:53.33%!important
+}
+}
+@media only screen and (min-width:361px) { /*三星note*/
+html {
+font-size:60%!important
+}
+}
+@media only screen and (min-width:376px) { /*iphone6*/
+html {
+font-size:61.67%!important
+}
+}
+@media only screen and (min-width:481px) {
+html {
+font-size:80%!important
+}
+}
+@media only screen and (min-width:561px) {
+html {
+font-size:93.33%!important
+}
+}
+@media only screen and (min-width:641px) {
+html {
+font-size:106.67%!important
+}
+}
+@media only screen and (min-width:751px) {
+html {
+font-size:125%!important
+}
+}
+/**************************************/
+
+.lft{ float:left;}
+.rgt{ float:right;}
+img{ width:auto; max-width:100%;}
+html{-webkit-text-size-adjust:none;}
+body{font-family: "Microsoft YaHei",sans-serif;    line-height: 1.7; /*max-width: 64rem; min-width: 32rem; */ margin: 0 auto; min-width: 320px; position: relative; height:100%; color:#555555; background:#f5f5f5;  }
+body a{ color:#555555;text-decoration:none;cursor:pointer}
+body a:hover,body a:active,body a:focus{text-decoration:none;outline:none}
+a:hover,a:link,a:visited,a{ color:inherit; text-decoration:none;}
+select{
+ -webkit-appearance:none;-moz-appearance:none;appearanearance: none;}
+
+.layout{position:relative;text-align:left; font-size:14px;margin:0 auto; overflow:hidden; background:#f8f8f8; } 
+.alert-warning{ color:#8a6d3b; background:#fcf8e3; font-size:14px; line-height:20px; padding:15px; border-bottom:1px solid #f5e79e; text-align:left;}
+.formBlock ul { margin-bottom:10px; padding-left:10px; background:#fff;}
+.formBlock ul li{  font-size:14px; position:relative; padding-left:90px; border-bottom:1px solid #eee;}
+.formBlock ul li .inner{height:44px; line-height:44px; }
+.formBlock ul li label{ display:block; height:44px; line-height:44px; position:absolute; left:0; top:0; text-align:left;}
+.formBlock ul li .btn-default{ position:absolute; right:0; top:0; height:44px; text-align:center; border:none; outline:none; border:1px solid #ddd; padding:0 12px; background:url(../images/bg.png) repeat-x center center; text-shadow:0 1px 2px #fff;}
+
+.formBlock ul li .text{ width:100%; padding:10px 0; height:24px; line-height:24px; width:100%; border:none; outline:none;font-family: "Microsoft YaHei",sans-serif; font-size:14px; color:#555;}
+.formBlock ul li .selectDiv:after{content:'';position:absolute;right:15px;top:16px;background:#f8f8f8;width:10px;height:10px;border-top:1px solid #999;border-right:1px solid #999;-webkit-transform:rotate(45deg)}
+.formBlock ul li .selectDiv select{ width:100%; height:44px; line-height:44px;background:#f8f8f8; outline:none; border:none; outline:none;font-family: "Microsoft YaHei",sans-serif; font-size:14px; color:#666;}
+.formBlock .title{ height:40px; line-height:40px; font-size:16px;}
+.formBlock .title h3{ width:50%; text-align:center; background:#fff; }
+
+.formBlock .submit{ padding:10px; padding-top:5px;}
+.formBlock .submit .btn-sub{ display:block; width:80%; border:none; outline:none; height:40px; margin:0 auto; color:#fff; background:#1b9af7; display:block; cursor:pointer; font-size:16px;}
+
+.uploadDiv{ margin-bottom:10px; padding-left:10px; background:#fff; }
+.uploadDiv .inner{border-bottom:1px solid #eee;padding-bottom:10px; padding-right:10px;height:108px;}
+.uploadDiv .inner  label{ display:block; height:30px; line-height:30px; font-size:14px;}
+.uploadDiv .inner dl dd{ float:left; width:50%;}
+.uploadDiv .inner dl dd .upbtn{ width:128px; height:78px; position:relative;}
+.uploadDiv .inner dl dd .upbtn input{ position:absolute; width:100%; height:100%; left:0; top:0; opacity:0;}
+.uploadDiv .inner dl dd.s1 .upbtn{ background:url(../images/identityZ.png) no-repeat center center; background-size:100% 100%;}
+.uploadDiv .inner dl dd .upbtn .add{  background:url(../images/RealName_AddBtn.png) no-repeat center center; background-size:50px 60px; height:78px;}
+.uploadDiv .inner dl dd.s2 .upbtn{ background:url(../images/z.png) no-repeat center center; background-size:100% 100%;}
+.uploadDiv .inner dl dd.s3 .upbtn{ background:url(../images/f.png) no-repeat center center; background-size:100% 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

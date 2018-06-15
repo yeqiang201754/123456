@@ -1,0 +1,42 @@
+{extend name="public:base" /}
+{block name="css"}
+{/block}
+{block name="content"}
+<form class="layui-form" action="">
+ <div class="layui-form-item">
+    <div class="layui-input-inline">
+        <button class="layui-btn" lay-submit lay-filter="submit"><i class="layui-icon">&#x1005;</i> 保存权限</button>
+    </div>
+  </div>
+<div class="layui-collapse "> 
+{volist name='ctrls' id="ctrl"}
+  <div class="layui-colla-item">
+    <h2 class="layui-colla-title">【{$ctrl.note}】{$ctrl.title}</h2>
+    <div class="layui-colla-content layui-show">
+        {volist name='ctrl.data' id='ctrl_child'}
+            <input type="checkbox" name="{$ctrl_child.title}" value="" title="{$ctrl_child.note} ({$ctrl_child.action})" lay-skin="primary" {eq name='ctrl_child.selected' value='true'}checked{/eq} />          
+        {/volist} 
+    </div>
+  </div>
+{/volist}
+</div>
+</form>
+{/block}
+{block name="javascript"}
+<script>
+    function goback(data){
+        if(data.code=='1') window.history.go(-1);
+    }    
+    layui.use(['form', 'layedit', 'laydate','element'], function(){
+        var form = layui.form
+        ,layer = layui.layer
+        ,layedit = layui.layedit
+        ,laydate = layui.laydate
+        ,element = layui.element; 
+        form.on('submit(submit)', function(data) {        
+            parent.$.fn.jcb.post('{$url}',data.field,false,goback);
+            return false;
+        });
+    });
+</script>
+{/block}

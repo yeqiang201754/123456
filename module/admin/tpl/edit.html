@@ -1,0 +1,34 @@
+{extend name="public:base" /}
+{block name="css"} 
+ <style>
+    .layui-upload-img {width: 150px;margin: 0 10px 10px 0;}
+</style>
+{/block}
+{block name="content"}
+<form class="layui-form layui-form-pane" action="">
+    {_tpl_} 
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button class="layui-btn" lay-submit lay-filter="submit">提交修改</button>
+            <button type="reset" class="layui-btn layui-btn-primary">重  置</button>
+        </div>
+    </div>
+</form>
+{/block} 
+
+{block name="javascript"}
+<script>
+layui.use(['form','upload', 'layedit','table', 'laydate','element'], function(){
+    var form = layui.form,layer = layui.layer,layedit = layui.layedit,laydate = layui.laydate,upload = layui.upload,element = layui.element,table = layui.table;     
+    {_tpl_date_js_}
+    function goback(data){
+        if(data.code=='1') window.history.go(-1);
+    }    
+    form.on('submit(submit)', function(data){  
+        {_tpl_upload_js_}       
+		parent.$.fn.jcb.post("{$config['current_url']}",data.field,false,goback);  
+		return false;
+	});
+});
+</script>
+{/block}

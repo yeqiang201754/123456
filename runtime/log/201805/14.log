@@ -1,0 +1,4330 @@
+---------------------------------------------------------------
+[ 2018-05-14T18:03:36+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/css/style_mem.css
+[ info ] 127.0.0.1/resource/css/style_mem.css [运行时间：0.034043s][吞吐率：29.37req/s] [内存消耗：1,440.77kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'css',
+    2 => 'style_mem.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:03:36+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.057115s][吞吐率：17.51req/s] [内存消耗：1,440.67kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:03:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index/upgrade/index
+[ info ] 127.0.0.1/index/upgrade/index [运行时间：0.078302s][吞吐率：12.77req/s] [内存消耗：2,526.59kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'upgrade',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Upgrade->index[ D:\web\point\module\index\controller\Upgrade.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\upgrade\index.html [ array (
+  0 => 'zy',
+  1 => 'jl',
+  2 => 'hz',
+  3 => 'yhj',
+  4 => 'bank',
+  5 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010306s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007096s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interest` [ RunTime:0.007830s ]
+[ sql ] [ SQL ] SELECT * FROM `interest` WHERE  `level` = 'zy' LIMIT 1 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007354s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SELECT * FROM `interest` WHERE  `level` = 'jl' LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT * FROM `interest` WHERE  `level` = 'hz' LIMIT 1 [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT * FROM `interest` WHERE  `level` = 'yhj' LIMIT 1 [ RunTime:0.000319s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:03:37+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/css/style_mem.css
+[ info ] 127.0.0.1/resource/css/style_mem.css [运行时间：0.036298s][吞吐率：27.55req/s] [内存消耗：1,440.64kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'css',
+    2 => 'style_mem.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/upgrade/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:03:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index/upgrade/index
+[ info ] 127.0.0.1/index/upgrade/index [运行时间：0.106826s][吞吐率：9.36req/s] [内存消耗：2,526.65kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'upgrade',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Upgrade->index[ D:\web\point\module\index\controller\Upgrade.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\upgrade\index.html [ array (
+  0 => 'zy',
+  1 => 'jl',
+  2 => 'hz',
+  3 => 'yhj',
+  4 => 'bank',
+  5 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011295s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007179s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `interest` [ RunTime:0.009143s ]
+[ sql ] [ SQL ] SELECT * FROM `interest` WHERE  `level` = 'zy' LIMIT 1 [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.008172s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT * FROM `interest` WHERE  `level` = 'jl' LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT * FROM `interest` WHERE  `level` = 'hz' LIMIT 1 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT * FROM `interest` WHERE  `level` = 'yhj' LIMIT 1 [ RunTime:0.000321s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:03:41+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/css/style_mem.css
+[ info ] 127.0.0.1/resource/css/style_mem.css [运行时间：0.034602s][吞吐率：28.90req/s] [内存消耗：1,440.64kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'css',
+    2 => 'style_mem.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/upgrade/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:03:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/index
+[ info ] 127.0.0.1/index/user/index [运行时间：0.076719s][吞吐率：13.03req/s] [内存消耗：2,511.52kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/upgrade/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->index[ D:\web\point\module\index\controller\User.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\user\index.html [ array (
+  0 => 'waite',
+  1 => 'success',
+  2 => 'fail',
+  3 => 'team_count',
+  4 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010248s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.007051s ]
+[ sql ] [ SQL ] SELECT `value` FROM `config` WHERE  `key` = 'withdraw_min' LIMIT 1 [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SELECT `value` FROM `config` WHERE  `key` = 'withdraw_fee' LIMIT 1 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007937s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  ( `team` = '0' AND `team` <> '0' ) LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.007451s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` WHERE  `user_id` = 9  AND `status` = 1 LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` WHERE  `user_id` = 9  AND `status` = 2 LIMIT 1 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` WHERE  `user_id` = 9  AND `status` = 3 LIMIT 1 [ RunTime:0.000258s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:03:42+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/css/style_mem.css
+[ info ] 127.0.0.1/resource/css/style_mem.css [运行时间：0.032271s][吞吐率：30.99req/s] [内存消耗：1,440.66kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'css',
+    2 => 'style_mem.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:03:42+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.049223s][吞吐率：20.32req/s] [内存消耗：1,440.67kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:03:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index/share/commission
+[ info ] 127.0.0.1/index/share/commission [运行时间：0.066743s][吞吐率：14.98req/s] [内存消耗：2,479.92kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'share',
+    2 => 'commission',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Share->commission[ D:\web\point\module\index\controller\Share.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\share\commission.html [ array (
+  0 => 'comlog',
+  1 => 'begin',
+  2 => 'end',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010403s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007501s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comlog` [ RunTime:0.006878s ]
+[ sql ] [ SQL ] SELECT * FROM `comlog` WHERE  `user_id` = 9  AND `addtime` BETWEEN '2018-04-14' AND '2018-06-13' [ RunTime:0.000387s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:03:44+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/css/style_mem.css
+[ info ] 127.0.0.1/resource/css/style_mem.css [运行时间：0.037351s][吞吐率：26.77req/s] [内存消耗：1,440.70kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'css',
+    2 => 'style_mem.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/share/commission',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:03:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index/images/down.png
+[ info ] 127.0.0.1/index/images/down.png [运行时间：0.050488s][吞吐率：19.81req/s] [内存消耗：1,446.72kb] [文件加载：41]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'images',
+    2 => 'down.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/share/commission',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:03:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index/share/commission?beginTime=2018-04-14&endTime=2018-06-13
+[ info ] 127.0.0.1/index/share/commission?beginTime=2018-04-14&endTime=2018-06-13 [运行时间：0.072787s][吞吐率：13.74req/s] [内存消耗：2,480.28kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'share',
+    2 => 'commission',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/share/commission',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'beginTime' => '2018-04-14',
+  'endTime' => '2018-06-13',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Share->commission[ D:\web\point\module\index\controller\Share.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\share\commission.html [ array (
+  0 => 'comlog',
+  1 => 'begin',
+  2 => 'end',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010789s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.008017s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comlog` [ RunTime:0.008146s ]
+[ sql ] [ SQL ] SELECT * FROM `comlog` WHERE  `user_id` = 9  AND `addtime` BETWEEN '2018-04-14' AND '2018-06-13' [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:03:47+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/css/style_mem.css
+[ info ] 127.0.0.1/resource/css/style_mem.css [运行时间：0.035859s][吞吐率：27.89req/s] [内存消耗：1,440.82kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'css',
+    2 => 'style_mem.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/share/commission?beginTime=2018-04-14&endTime=2018-06-13',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:03:47+08:00 ] 127.0.0.1 127.0.0.1 GET /index/images/down.png
+[ info ] 127.0.0.1/index/images/down.png [运行时间：0.043169s][吞吐率：23.16req/s] [内存消耗：1,446.80kb] [文件加载：41]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'images',
+    2 => 'down.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/share/commission?beginTime=2018-04-14&endTime=2018-06-13',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:03:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index/share/commission
+[ info ] 127.0.0.1/index/share/commission [运行时间：0.066878s][吞吐率：14.95req/s] [内存消耗：2,479.80kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'share',
+    2 => 'commission',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Share->commission[ D:\web\point\module\index\controller\Share.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\share\commission.html [ array (
+  0 => 'comlog',
+  1 => 'begin',
+  2 => 'end',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010940s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007469s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `comlog` [ RunTime:0.008225s ]
+[ sql ] [ SQL ] SELECT * FROM `comlog` WHERE  `user_id` = 9  AND `addtime` BETWEEN '2018-04-14' AND '2018-06-13' [ RunTime:0.000529s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:03:49+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/css/style_mem.css
+[ info ] 127.0.0.1/resource/css/style_mem.css [运行时间：0.031238s][吞吐率：32.01req/s] [内存消耗：1,440.70kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'css',
+    2 => 'style_mem.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/share/commission',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:03:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index/images/down.png
+[ info ] 127.0.0.1/index/images/down.png [运行时间：0.037639s][吞吐率：26.57req/s] [内存消耗：1,446.72kb] [文件加载：41]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'images',
+    2 => 'down.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/share/commission',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:03:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/index
+[ info ] 127.0.0.1/index/user/index [运行时间：0.075176s][吞吐率：13.30req/s] [内存消耗：2,511.52kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/upgrade/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->index[ D:\web\point\module\index\controller\User.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\user\index.html [ array (
+  0 => 'waite',
+  1 => 'success',
+  2 => 'fail',
+  3 => 'team_count',
+  4 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010503s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.007316s ]
+[ sql ] [ SQL ] SELECT `value` FROM `config` WHERE  `key` = 'withdraw_min' LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SELECT `value` FROM `config` WHERE  `key` = 'withdraw_fee' LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.008054s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  ( `team` = '0' AND `team` <> '0' ) LIMIT 1 [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.006994s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` WHERE  `user_id` = 9  AND `status` = 1 LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` WHERE  `user_id` = 9  AND `status` = 2 LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` WHERE  `user_id` = 9  AND `status` = 3 LIMIT 1 [ RunTime:0.000228s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:03:51+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/css/style_mem.css
+[ info ] 127.0.0.1/resource/css/style_mem.css [运行时间：0.030998s][吞吐率：32.26req/s] [内存消耗：1,440.66kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'css',
+    2 => 'style_mem.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:03:51+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.058490s][吞吐率：17.10req/s] [内存消耗：1,440.67kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:03:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/withdraw
+[ info ] 127.0.0.1/index/user/withdraw [运行时间：0.071650s][吞吐率：13.96req/s] [内存消耗：2,503.14kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'withdraw',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->withdraw[ D:\web\point\module\index\controller\User.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\user\withdraw.html [ array (
+  0 => 'bank',
+  1 => 'withdraw_min',
+  2 => 'withdraw_fee',
+  3 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010199s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.007362s ]
+[ sql ] [ SQL ] SELECT `value` FROM `config` WHERE  `key` = 'withdraw_min' LIMIT 1 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT `value` FROM `config` WHERE  `key` = 'withdraw_fee' LIMIT 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007129s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.006677s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:03:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/res_submit/js/jquery.js
+[ info ] 127.0.0.1/index/user/res_submit/js/jquery.js [运行时间：0.074718s][吞吐率：13.38req/s] [内存消耗：2,515.86kb] [文件加载：54]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'res_submit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/index/user/withdraw',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'js' => 'jquery.js',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000755s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.009836s ]
+[ sql ] [ SQL ] SELECT `value` FROM `config` WHERE  `key` = 'withdraw_min' LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SELECT `value` FROM `config` WHERE  `key` = 'withdraw_fee' LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.008437s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:03:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/index
+[ info ] 127.0.0.1/index/user/index [运行时间：0.077954s][吞吐率：12.83req/s] [内存消耗：2,511.52kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/upgrade/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->index[ D:\web\point\module\index\controller\User.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\user\index.html [ array (
+  0 => 'waite',
+  1 => 'success',
+  2 => 'fail',
+  3 => 'team_count',
+  4 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010304s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.007042s ]
+[ sql ] [ SQL ] SELECT `value` FROM `config` WHERE  `key` = 'withdraw_min' LIMIT 1 [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT `value` FROM `config` WHERE  `key` = 'withdraw_fee' LIMIT 1 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007576s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  ( `team` = '0' AND `team` <> '0' ) LIMIT 1 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.008505s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` WHERE  `user_id` = 9  AND `status` = 1 LIMIT 1 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` WHERE  `user_id` = 9  AND `status` = 2 LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` WHERE  `user_id` = 9  AND `status` = 3 LIMIT 1 [ RunTime:0.000242s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:03:56+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/css/style_mem.css
+[ info ] 127.0.0.1/resource/css/style_mem.css [运行时间：0.029991s][吞吐率：33.34req/s] [内存消耗：1,440.66kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'css',
+    2 => 'style_mem.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:03:56+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.065651s][吞吐率：15.23req/s] [内存消耗：1,440.67kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:03:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/withdraw_log
+[ info ] 127.0.0.1/index/user/withdraw_log [运行时间：0.074917s][吞吐率：13.35req/s] [内存消耗：2,501.30kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'withdraw_log',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->withdraw_log[ D:\web\point\module\index\controller\User.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\user\withdraw_log.html [ array (
+  0 => 'withdraw_log',
+  1 => 'begin',
+  2 => 'end',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010376s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.007897s ]
+[ sql ] [ SQL ] SELECT `value` FROM `config` WHERE  `key` = 'withdraw_min' LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT `value` FROM `config` WHERE  `key` = 'withdraw_fee' LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007201s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `withdraw` [ RunTime:0.007345s ]
+[ sql ] [ SQL ] SELECT * FROM `withdraw` WHERE  `user_id` = 9  AND `addtime` BETWEEN '2018-04-14' AND '2018-06-13' [ RunTime:0.000329s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:03:58+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/css/style_mem.css
+[ info ] 127.0.0.1/resource/css/style_mem.css [运行时间：0.037405s][吞吐率：26.73req/s] [内存消耗：1,440.68kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'css',
+    2 => 'style_mem.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/user/withdraw_log',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:03:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index/images/down.png
+[ info ] 127.0.0.1/index/images/down.png [运行时间：0.039220s][吞吐率：25.50req/s] [内存消耗：1,446.72kb] [文件加载：41]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'images',
+    2 => 'down.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/user/withdraw_log',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:04:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/index
+[ info ] 127.0.0.1/index/user/index [运行时间：0.075855s][吞吐率：13.18req/s] [内存消耗：2,511.52kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/upgrade/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->index[ D:\web\point\module\index\controller\User.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\user\index.html [ array (
+  0 => 'waite',
+  1 => 'success',
+  2 => 'fail',
+  3 => 'team_count',
+  4 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010304s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.007471s ]
+[ sql ] [ SQL ] SELECT `value` FROM `config` WHERE  `key` = 'withdraw_min' LIMIT 1 [ RunTime:0.000302s ]
+[ sql ] [ SQL ] SELECT `value` FROM `config` WHERE  `key` = 'withdraw_fee' LIMIT 1 [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007886s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  ( `team` = '0' AND `team` <> '0' ) LIMIT 1 [ RunTime:0.000326s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.007084s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` WHERE  `user_id` = 9  AND `status` = 1 LIMIT 1 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` WHERE  `user_id` = 9  AND `status` = 2 LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` WHERE  `user_id` = 9  AND `status` = 3 LIMIT 1 [ RunTime:0.000255s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:04:00+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/css/style_mem.css
+[ info ] 127.0.0.1/resource/css/style_mem.css [运行时间：0.040172s][吞吐率：24.89req/s] [内存消耗：1,440.66kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'css',
+    2 => 'style_mem.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:04:00+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.053294s][吞吐率：18.76req/s] [内存消耗：1,440.67kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:04:01+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/notice
+[ info ] 127.0.0.1/index/user/notice [运行时间：0.076770s][吞吐率：13.03req/s] [内存消耗：2,494.79kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'notice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->notice[ D:\web\point\module\index\controller\User.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\user\notice.html [ array (
+  0 => 'notice',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010242s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.007238s ]
+[ sql ] [ SQL ] SELECT `value` FROM `config` WHERE  `key` = 'withdraw_min' LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT `value` FROM `config` WHERE  `key` = 'withdraw_fee' LIMIT 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007206s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000331s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `notice` [ RunTime:0.007681s ]
+[ sql ] [ SQL ] SELECT * FROM `notice` [ RunTime:0.000264s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:04:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/index
+[ info ] 127.0.0.1/index/user/index [运行时间：0.077198s][吞吐率：12.95req/s] [内存消耗：2,511.52kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/upgrade/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\User->index[ D:\web\point\module\index\controller\User.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\user\index.html [ array (
+  0 => 'waite',
+  1 => 'success',
+  2 => 'fail',
+  3 => 'team_count',
+  4 => 'user',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010501s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `config` [ RunTime:0.008324s ]
+[ sql ] [ SQL ] SELECT `value` FROM `config` WHERE  `key` = 'withdraw_min' LIMIT 1 [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT `value` FROM `config` WHERE  `key` = 'withdraw_fee' LIMIT 1 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.006935s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  ( `team` = '0' AND `team` <> '0' ) LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `order` [ RunTime:0.007794s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` WHERE  `user_id` = 9  AND `status` = 1 LIMIT 1 [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` WHERE  `user_id` = 9  AND `status` = 2 LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `order` WHERE  `user_id` = 9  AND `status` = 3 LIMIT 1 [ RunTime:0.000305s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:04:02+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/css/style_mem.css
+[ info ] 127.0.0.1/resource/css/style_mem.css [运行时间：0.032726s][吞吐率：30.56req/s] [内存消耗：1,440.66kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'css',
+    2 => 'style_mem.css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:04:03+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.044365s][吞吐率：22.54req/s] [内存消耗：1,440.67kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:04:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ info ] 127.0.0.1/index [运行时间：0.056274s][吞吐率：17.77req/s] [内存消耗：2,476.36kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\index.html [ array (
+  0 => 'grade',
+  1 => 'bank',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000625s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.006953s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007407s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000301s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:04:06+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.028413s][吞吐率：35.20req/s] [内存消耗：1,440.67kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:04:08+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.064964s][吞吐率：15.39req/s] [内存消耗：2,462.18kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '2',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010585s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007629s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark` FROM `bank` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000370s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:06:10+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.053681s][吞吐率：18.63req/s] [内存消耗：1,717.65kb] [文件加载：46]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '16',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:06:11+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.066001s][吞吐率：15.15req/s] [内存消耗：2,462.18kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '1',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010453s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.008467s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark` FROM `bank` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000426s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:06:13+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.062948s][吞吐率：15.89req/s] [内存消耗：2,462.18kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '2',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010268s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.006454s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark` FROM `bank` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000357s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:06:14+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.051271s][吞吐率：19.50req/s] [内存消耗：2,462.18kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000821s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007797s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000301s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:06:27+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/bank/index
+[ info ] 127.0.0.1/admin/bank/index [运行时间：0.113331s][吞吐率：8.82req/s] [内存消耗：2,599.37kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bank',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Bank->index[ D:\web\point\module\admin\controller\Bank.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\bank\index.html [ array (
+  0 => 'config',
+  1 => 'member',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010543s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.011076s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000784s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.009305s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.011806s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.010729s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|bank|index' LIMIT 1 [ RunTime:0.000683s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:06:27+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/bank/data.html?page=1&limit=12
+[ info ] 127.0.0.1/admin/bank/data.html?page=1&limit=12 [运行时间：0.093664s][吞吐率：10.68req/s] [内存消耗：2,540.15kb] [文件加载：54]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bank',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/bank/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '12',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Bank->data[ D:\web\point\module\admin\controller\Bank.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000956s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.010043s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.007699s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000837s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.007916s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.008666s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|bank|data' LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007277s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT COUNT(id) AS tp_count FROM `bank` LIMIT 1 [ RunTime:0.000139s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:06:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/bank/edit.html?id=1
+[ info ] 127.0.0.1/admin/bank/edit.html?id=1 [运行时间：0.092023s][吞吐率：10.87req/s] [内存消耗：2,547.35kb] [文件加载：55]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bank',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/bank/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Bank->edit[ D:\web\point\module\admin\controller\Bank.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\bank\edit.html [ array (
+  0 => 'config',
+  1 => 'member',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010651s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.007065s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.007594s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.007130s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.007636s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|bank|edit' LIMIT 1 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007878s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000437s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:06:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/bank/index
+[ info ] 127.0.0.1/admin/bank/index [运行时间：0.094268s][吞吐率：10.61req/s] [内存消耗：2,599.37kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bank',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Bank->index[ D:\web\point\module\admin\controller\Bank.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\bank\index.html [ array (
+  0 => 'config',
+  1 => 'member',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010860s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.008229s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.009324s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.006729s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.009238s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|bank|index' LIMIT 1 [ RunTime:0.000371s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:06:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/bank/data.html?page=1&limit=12
+[ info ] 127.0.0.1/admin/bank/data.html?page=1&limit=12 [运行时间：0.089369s][吞吐率：11.19req/s] [内存消耗：2,540.15kb] [文件加载：54]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bank',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/bank/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '12',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Bank->data[ D:\web\point\module\admin\controller\Bank.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000714s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.009528s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.006470s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.009252s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.007048s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|bank|data' LIMIT 1 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.008507s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT COUNT(id) AS tp_count FROM `bank` LIMIT 1 [ RunTime:0.000147s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:06:50+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/bank/edit.html?id=3
+[ info ] 127.0.0.1/admin/bank/edit.html?id=3 [运行时间：0.079232s][吞吐率：12.62req/s] [内存消耗：2,547.33kb] [文件加载：55]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bank',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/bank/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Bank->edit[ D:\web\point\module\admin\controller\Bank.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\bank\edit.html [ array (
+  0 => 'config',
+  1 => 'member',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000930s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.007075s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.007888s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.006792s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.007741s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|bank|edit' LIMIT 1 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.006842s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000293s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:09:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/bank/edit.html?id=3
+[ info ] 127.0.0.1/admin/bank/edit.html?id=3 [运行时间：0.117914s][吞吐率：8.48req/s] [内存消耗：2,547.27kb] [文件加载：55]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bank',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Bank->edit[ D:\web\point\module\admin\controller\Bank.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\bank\edit.html [ array (
+  0 => 'config',
+  1 => 'member',
+  2 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010557s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.008155s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.009961s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.008207s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.008418s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|bank|edit' LIMIT 1 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.008197s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000522s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:16:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ info ] 127.0.0.1/index [运行时间：0.102785s][吞吐率：9.73req/s] [内存消耗：2,632.76kb] [文件加载：55]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\index.html [ array (
+  0 => 'grade',
+  1 => 'bank',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011125s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.008250s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.008517s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000255s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:16:07+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.036454s][吞吐率：27.43req/s] [内存消耗：1,440.67kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:16:09+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.060691s][吞吐率：16.48req/s] [内存消耗：2,462.64kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010997s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007147s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000322s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:16:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ info ] 127.0.0.1/index [运行时间：0.087015s][吞吐率：11.49req/s] [内存消耗：2,477.02kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\index.html [ array (
+  0 => 'grade',
+  1 => 'bank',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011662s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007460s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.009522s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000273s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:16:11+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.035426s][吞吐率：28.23req/s] [内存消耗：1,440.67kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:16:12+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.060249s][吞吐率：16.60req/s] [内存消耗：2,462.64kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010590s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007390s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000420s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:16:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ info ] 127.0.0.1/index [运行时间：0.082126s][吞吐率：12.18req/s] [内存消耗：2,477.02kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\index.html [ array (
+  0 => 'grade',
+  1 => 'bank',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002155s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.011214s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007403s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000354s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:16:22+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.031375s][吞吐率：31.87req/s] [内存消耗：1,440.67kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:16:24+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.061098s][吞吐率：16.37req/s] [内存消耗：2,499.88kb] [文件加载：55]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010569s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007317s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000301s ]
+[ error ] [1]Call to undefined function app\index\controller\htmlspecialchars_encode()[D:\web\point\module\index\controller\Index.php:60]
+---------------------------------------------------------------
+[ 2018-05-14T18:16:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ info ] 127.0.0.1/index [运行时间：0.077560s][吞吐率：12.89req/s] [内存消耗：2,477.02kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\index.html [ array (
+  0 => 'grade',
+  1 => 'bank',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000854s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.008447s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001812s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007985s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000251s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:16:28+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.037437s][吞吐率：26.71req/s] [内存消耗：1,440.67kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:16:29+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.061520s][吞吐率：16.25req/s] [内存消耗：2,499.89kb] [文件加载：55]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '2',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010172s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007222s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark` FROM `bank` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000289s ]
+[ error ] [1]Call to undefined function app\index\controller\htmlspecialchars_encode()[D:\web\point\module\index\controller\Index.php:60]
+---------------------------------------------------------------
+[ 2018-05-14T18:16:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ info ] 127.0.0.1/index [运行时间：0.075046s][吞吐率：13.33req/s] [内存消耗：2,477.02kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\index.html [ array (
+  0 => 'grade',
+  1 => 'bank',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000934s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009673s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.006350s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000252s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:16:34+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.029985s][吞吐率：33.35req/s] [内存消耗：1,440.67kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:16:35+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.060725s][吞吐率：16.47req/s] [内存消耗：2,462.64kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010211s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007186s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000369s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:17:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ info ] 127.0.0.1/index [运行时间：0.082195s][吞吐率：12.17req/s] [内存消耗：2,477.24kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\index.html [ array (
+  0 => 'grade',
+  1 => 'bank',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010825s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009088s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.008077s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000295s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:17:28+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.027131s][吞吐率：36.86req/s] [内存消耗：1,440.67kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:17:30+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.059151s][吞吐率：16.91req/s] [内存消耗：2,417.79kb] [文件加载：50]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '2',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010619s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007500s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark` FROM `bank` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000371s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:17:32+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.061404s][吞吐率：16.29req/s] [内存消耗：2,417.79kb] [文件加载：50]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010692s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007308s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001218s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:19:14+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/bank/edit.html?id=3
+[ info ] 127.0.0.1/admin/bank/edit.html?id=3 [运行时间：0.121304s][吞吐率：8.24req/s] [内存消耗：2,633.59kb] [文件加载：58]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bank',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '165',
+  'accept' => '*/*',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'bankname' => '招商银行',
+  'zy_radio' => '12.00',
+  'jl_radio' => '13.00',
+  'hz_radio' => '17.00',
+  'yhj_radio' => '19.00',
+  'step' => '<p>UNKAL</p>',
+  'remark' => '<p>POIWAL</p>',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Bank->edit[ D:\web\point\module\admin\controller\Bank.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011723s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.008209s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.010630s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.009494s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.008346s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|bank|edit' LIMIT 1 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.010116s ]
+[ sql ] [ SQL ] UPDATE `bank`  SET `bankname`='招商银行',`zy_radio`=12,`jl_radio`=13,`hz_radio`=17,`yhj_radio`=19,`remark`='<p>POIWAL</p>',`step`='<p>UNKAL</p>'  WHERE  `id` = 3 [ RunTime:0.000444s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:19:14+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/bank/index
+[ info ] 127.0.0.1/admin/bank/index [运行时间：0.089807s][吞吐率：11.13req/s] [内存消耗：2,599.37kb] [文件加载：56]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bank',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Bank->index[ D:\web\point\module\admin\controller\Bank.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/admin\view\bank\index.html [ array (
+  0 => 'config',
+  1 => 'member',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010844s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.007426s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.007841s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.007048s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.007930s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|bank|index' LIMIT 1 [ RunTime:0.000430s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:19:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/bank/data.html?page=1&limit=12
+[ info ] 127.0.0.1/admin/bank/data.html?page=1&limit=12 [运行时间：0.094657s][吞吐率：10.56req/s] [内存消耗：2,540.15kb] [文件加载：54]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bank',
+    2 => 'data',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.108 Safari/537.36',
+  'referer' => 'http://127.0.0.1/admin/bank/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '12',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Bank->data[ D:\web\point\module\admin\controller\Bank.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010896s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_config` [ RunTime:0.006787s ]
+[ sql ] [ SQL ] SELECT `key`,`val` FROM `jcb_sys_config` WHERE  `ishead` = 0 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_member` [ RunTime:0.006955s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_member` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_menu_role` [ RunTime:0.006450s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_menu_role` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `jcb_sys_action_role` [ RunTime:0.006851s ]
+[ sql ] [ SQL ] SELECT * FROM `jcb_sys_action_role` WHERE  `roleid` = 1  AND `action` = 'admin|bank|data' LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.006813s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` ORDER BY id desc LIMIT 0,12 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT COUNT(id) AS tp_count FROM `bank` LIMIT 1 [ RunTime:0.000186s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:21:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ info ] 127.0.0.1/index [运行时间：0.090343s][吞吐率：11.07req/s] [内存消耗：2,476.63kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\index.html [ array (
+  0 => 'grade',
+  1 => 'bank',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003829s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.008387s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001437s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.008013s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000261s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:21:11+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.036243s][吞吐率：27.59req/s] [内存消耗：1,440.67kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:21:12+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.060380s][吞吐率：16.56req/s] [内存消耗：2,462.18kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '2',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010465s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.008090s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark` FROM `bank` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000428s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:22:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ info ] 127.0.0.1/index [运行时间：0.083096s][吞吐率：12.03req/s] [内存消耗：2,632.52kb] [文件加载：55]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\index.html [ array (
+  0 => 'grade',
+  1 => 'bank',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001108s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.008584s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.006839s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000279s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:22:52+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.029708s][吞吐率：33.66req/s] [内存消耗：1,440.67kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:22:57+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.061762s][吞吐率：16.19req/s] [内存消耗：2,462.18kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010718s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007428s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000309s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:23:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ info ] 127.0.0.1/index [运行时间：0.079163s][吞吐率：12.63req/s] [内存消耗：2,632.38kb] [文件加载：55]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\index.html [ array (
+  0 => 'grade',
+  1 => 'bank',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000812s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.012960s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.006381s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000390s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:23:45+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.038388s][吞吐率：26.05req/s] [内存消耗：1,440.67kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:23:46+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.059383s][吞吐率：16.84req/s] [内存消耗：2,462.18kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '1',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010486s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007581s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark` FROM `bank` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000427s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:23:48+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.061944s][吞吐率：16.14req/s] [内存消耗：2,462.18kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '2',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010588s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007176s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark` FROM `bank` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001127s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:23:49+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.060942s][吞吐率：16.41req/s] [内存消耗：2,462.18kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010777s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.006477s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000278s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:23:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ info ] 127.0.0.1/index [运行时间：0.089592s][吞吐率：11.16req/s] [内存消耗：2,632.38kb] [文件加载：55]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\index.html [ array (
+  0 => 'grade',
+  1 => 'bank',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002229s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.012985s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.008101s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000275s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:23:55+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.029273s][吞吐率：34.16req/s] [内存消耗：1,440.67kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:23:56+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.064485s][吞吐率：15.51req/s] [内存消耗：2,462.18kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '2',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010660s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007199s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark` FROM `bank` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000359s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:24:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ info ] 127.0.0.1/index [运行时间：0.092833s][吞吐率：10.77req/s] [内存消耗：2,632.48kb] [文件加载：55]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\index.html [ array (
+  0 => 'grade',
+  1 => 'bank',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010577s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.008573s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.006981s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000273s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:24:29+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.030806s][吞吐率：32.46req/s] [内存消耗：1,440.67kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:24:31+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.061827s][吞吐率：16.17req/s] [内存消耗：2,462.18kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '1',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010650s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007695s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark` FROM `bank` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000289s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:24:33+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.050774s][吞吐率：19.70req/s] [内存消耗：2,462.18kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '2',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000801s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007210s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark` FROM `bank` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000322s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:24:35+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.054773s][吞吐率：18.26req/s] [内存消耗：2,462.18kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000630s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.009016s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000241s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:24:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ info ] 127.0.0.1/index [运行时间：0.073223s][吞吐率：13.66req/s] [内存消耗：2,476.62kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\index.html [ array (
+  0 => 'grade',
+  1 => 'bank',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000807s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.011746s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007204s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000235s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:24:35+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.035306s][吞吐率：28.32req/s] [内存消耗：1,440.67kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:24:37+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.060661s][吞吐率：16.49req/s] [内存消耗：2,462.18kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010471s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007488s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000413s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:24:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ info ] 127.0.0.1/index [运行时间：0.081428s][吞吐率：12.28req/s] [内存消耗：2,476.62kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/user/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\index.html [ array (
+  0 => 'grade',
+  1 => 'bank',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000784s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009823s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007567s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000227s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:24:37+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.027862s][吞吐率：35.89req/s] [内存消耗：1,440.67kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:25:01+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.059141s][吞吐率：16.91req/s] [内存消耗：2,462.18kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000913s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007573s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark` FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000318s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:25:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/exchange?bankid=3
+[ info ] 127.0.0.1/index/index/exchange?bankid=3 [运行时间：0.057200s][吞吐率：17.48req/s] [内存消耗：2,472.24kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'exchange',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '3',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->exchange[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\exchange.html [ array (
+  0 => 'bank',
+  1 => 'exchange',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001049s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `exchange` [ RunTime:0.008287s ]
+[ sql ] [ SQL ] SELECT * FROM `exchange` WHERE  `bankid` = 3 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007378s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000443s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:25:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index
+[ info ] 127.0.0.1/index/index/index [运行时间：0.066843s][吞吐率：14.96req/s] [内存消耗：2,632.42kb] [文件加载：55]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/exchange?bankid=3',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\index.html [ array (
+  0 => 'grade',
+  1 => 'bank',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010420s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007373s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007086s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000315s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:25:15+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.026768s][吞吐率：37.36req/s] [内存消耗：1,440.67kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:25:17+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.060052s][吞吐率：16.65req/s] [内存消耗：2,462.30kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '1',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010448s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007206s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark` FROM `bank` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000370s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:25:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/exchange?bankid=1
+[ info ] 127.0.0.1/index/index/exchange?bankid=1 [运行时间：0.070581s][吞吐率：14.17req/s] [内存消耗：2,472.94kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'exchange',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->exchange[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\exchange.html [ array (
+  0 => 'bank',
+  1 => 'exchange',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010279s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `exchange` [ RunTime:0.009442s ]
+[ sql ] [ SQL ] SELECT * FROM `exchange` WHERE  `bankid` = 1 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007108s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000465s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:26:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/exchange?bankid=1
+[ info ] 127.0.0.1/index/index/exchange?bankid=1 [运行时间：0.090649s][吞吐率：11.03req/s] [内存消耗：2,473.23kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'exchange',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->exchange[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\exchange.html [ array (
+  0 => 'bank',
+  1 => 'exchange',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004007s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `exchange` [ RunTime:0.008531s ]
+[ sql ] [ SQL ] SELECT * FROM `exchange` WHERE  `bankid` = 1 [ RunTime:0.001398s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.008170s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000314s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:26:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/customs?bankid=1
+[ info ] 127.0.0.1/index/index/customs?bankid=1 [运行时间：0.032177s][吞吐率：31.08req/s] [内存消耗：1,718.27kb] [文件加载：46]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'customs',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/exchange?bankid=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->customs[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\customs.html [ array (
+  0 => 'bankid',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:26:08+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/xz13.jpg
+[ info ] 127.0.0.1/resource/images/xz13.jpg [运行时间：0.031408s][吞吐率：31.84req/s] [内存消耗：1,440.72kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'xz13.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:27:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/exchange
+[ info ] 127.0.0.1/index/index/exchange [运行时间：0.036668s][吞吐率：27.27req/s] [内存消耗：1,785.70kb] [文件加载：47]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'exchange',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/customs?bankid=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->exchange[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:27:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ info ] 127.0.0.1/index/index/index.html [运行时间：0.066709s][吞吐率：14.99req/s] [内存消耗：2,632.40kb] [文件加载：55]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/customs?bankid=1',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\index.html [ array (
+  0 => 'grade',
+  1 => 'bank',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010954s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007990s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007109s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` [ RunTime:0.000332s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:27:47+08:00 ] 127.0.0.1 127.0.0.1 GET /resource/images/loading.gif
+[ info ] 127.0.0.1/resource/images/loading.gif [运行时间：0.034931s][吞吐率：28.63req/s] [内存消耗：1,440.67kb] [文件加载：40]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'resource',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/resource/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-14T18:27:50+08:00 ] 127.0.0.1 127.0.0.1 POST /index/index/bank
+[ info ] 127.0.0.1/index/index/bank [运行时间：0.060491s][吞吐率：16.53req/s] [内存消耗：2,462.29kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'bank',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '1',
+  'grade' => 'zy',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->bank[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010456s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.007206s ]
+[ sql ] [ SQL ] SELECT zy_radio as radio,`remark` FROM `bank` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000384s ]
+---------------------------------------------------------------
+[ 2018-05-14T18:27:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/exchange?bankid=1
+[ info ] 127.0.0.1/index/index/exchange?bankid=1 [运行时间：0.061275s][吞吐率：16.32req/s] [内存消耗：2,473.05kb] [文件加载：53]
+[ info ] [ LANG ] D:\web\point\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'exchange',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 10_3 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/56.0.2924.75 Mobile/14E5239e Safari/602.1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'UM_distinctid=1621d47490c100d-0eafdf086d227a-2b0c3866-4a640-1621d47490dd28; PHPSESSID=fp0i6afp8hkcvbuc23kn5si4h2',
+)
+[ info ] [ PARAM ] array (
+  'bankid' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->exchange[ D:\web\point\module\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\web\point\public/../module/index\view\index\exchange.html [ array (
+  0 => 'bank',
+  1 => 'exchange',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002064s ] mysql:host=127.0.0.1;port=3306;dbname=point;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `exchange` [ RunTime:0.007538s ]
+[ sql ] [ SQL ] SELECT * FROM `exchange` WHERE  `bankid` = 1 [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `bank` [ RunTime:0.008946s ]
+[ sql ] [ SQL ] SELECT * FROM `bank` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000327s ]
